@@ -9,3 +9,4 @@ export REFRESH_DATA=1
 "$python_bin" generate_weekly_signal.py
 "$python_bin" signal_system/signal_engine.py
 "$python_bin" generate_combined_signal.py
+"$python_bin" generate_market_history.py

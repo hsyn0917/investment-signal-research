@@ -35,6 +35,7 @@ jobs:
           python generate_weekly_signal.py
           python signal_system/signal_engine.py
           python generate_combined_signal.py
+          python generate_market_history.py
 
       - name: Add run summary
         run: |
@@ -76,6 +77,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add signals/latest_signal.json signals/trade_instructions.csv signals/signal_report.html
           git add combined_signals/latest_portfolio.json combined_signals/latest_portfolio.md combined_signals/latest_portfolio.html combined_signals/trade_instructions.csv
+          git add combined_signals/market_history.json
           if git diff --cached --quiet; then
             echo "No signal change"
           else
