@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-07-31T12:53:35+09:00",
+  "generated_at_jst": "2026-07-31T12:55:12+09:00",
   "observation_count": 180,
   "method": {
     "risk_allocation": "日本株60日レジーム + 米国200日トレンド・20日ボラ調整",
@@ -214,7 +214,7 @@
       "n225_index": 99.1753,
       "sp500_index": 100.5557,
       "tqqq_index": 99.6362,
-      "spxl_index": 100.8398,
+      "spxl_index": 100.8399,
       "usd_jpy": 155.142
     },
     {
