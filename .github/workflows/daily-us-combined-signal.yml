@@ -7,7 +7,7 @@ on:
       timezone: "Asia/Tokyo"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: daily-us-combined-signal
@@ -31,6 +31,20 @@ jobs:
 
       - name: Add run summary
         run: cat combined_signals/latest_portfolio.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Save latest signal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add signal_system/output/latest_signal.json signal_system/output/latest_signal.md signal_system/output/latest_signal.csv
+          git add combined_signals/latest_portfolio.json combined_signals/latest_portfolio.md combined_signals/latest_portfolio.html combined_signals/trade_instructions.csv
+          if git diff --cached --quiet; then
+            echo "No signal change"
+          else
+            git commit -m "chore: update daily portfolio signal"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
 
       - name: Upload signal artifacts
         uses: actions/upload-artifact@v4
