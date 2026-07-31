@@ -1,0 +1,175 @@
+{
+  "generated_at": "2026-07-31T07:10:02+09:00",
+  "signal_date": "2026-07-29",
+  "strategy": "MOM_60_120_REGIME",
+  "market": {
+    "label": "リスク抑制",
+    "exposure": 0.5,
+    "benchmark_close": 61434.19140625,
+    "benchmark_ma60": 66171.84602864583
+  },
+  "targets": [
+    {
+      "ticker": "6976.T",
+      "code": "6976",
+      "company_name": "太陽誘電",
+      "score": 0.9940209267563528,
+      "target_weight": 0.01630971164957048
+    },
+    {
+      "ticker": "6098.T",
+      "code": "6098",
+      "company_name": "リクルートホールディングス",
+      "score": 0.9910313901345291,
+      "target_weight": 0.05995821502188504
+    },
+    {
+      "ticker": "6724.T",
+      "code": "6724",
+      "company_name": "セイコーエプソン",
+      "score": 0.9730941704035874,
+      "target_weight": 0.05479295062287528
+    },
+    {
+      "ticker": "5301.T",
+      "code": "5301",
+      "company_name": "東海カーボン",
+      "score": 0.968609865470852,
+      "target_weight": 0.07500000000000001
+    },
+    {
+      "ticker": "6971.T",
+      "code": "6971",
+      "company_name": "京セラ",
+      "score": 0.9566517189835575,
+      "target_weight": 0.04840813956226204
+    },
+    {
+      "ticker": "9147.T",
+      "code": "9147",
+      "company_name": "NIPPON EXPRESSホールディングス",
+      "score": 0.9551569506726457,
+      "target_weight": 0.0642912232368319
+    },
+    {
+      "ticker": "6532.T",
+      "code": "6532",
+      "company_name": "ベイカレント",
+      "score": 0.9521674140508222,
+      "target_weight": 0.03665778697038304
+    },
+    {
+      "ticker": "8750.T",
+      "code": "8750",
+      "company_name": "第一生命ホールディングス",
+      "score": 0.9342301943198804,
+      "target_weight": 0.07449514405619914
+    },
+    {
+      "ticker": "3086.T",
+      "code": "3086",
+      "company_name": "J.フロント リテイリング",
+      "score": 0.9327354260089686,
+      "target_weight": 0.042144043318638885
+    },
+    {
+      "ticker": "3697.T",
+      "code": "3697",
+      "company_name": "SHIFT",
+      "score": 0.9177877428998505,
+      "target_weight": 0.02794278556135429
+    }
+  ],
+  "instructions": [
+    {
+      "action": "新規買い",
+      "code": "5301",
+      "ticker": "5301.T",
+      "company_name": "東海カーボン",
+      "current_weight": 0.0,
+      "target_weight": 0.07500000000000001,
+      "change": 0.07500000000000001
+    },
+    {
+      "action": "新規買い",
+      "code": "8750",
+      "ticker": "8750.T",
+      "company_name": "第一生命ホールディングス",
+      "current_weight": 0.0,
+      "target_weight": 0.07449514405619914,
+      "change": 0.07449514405619914
+    },
+    {
+      "action": "新規買い",
+      "code": "9147",
+      "ticker": "9147.T",
+      "company_name": "NIPPON EXPRESSホールディングス",
+      "current_weight": 0.0,
+      "target_weight": 0.0642912232368319,
+      "change": 0.0642912232368319
+    },
+    {
+      "action": "新規買い",
+      "code": "6098",
+      "ticker": "6098.T",
+      "company_name": "リクルートホールディングス",
+      "current_weight": 0.0,
+      "target_weight": 0.05995821502188504,
+      "change": 0.05995821502188504
+    },
+    {
+      "action": "新規買い",
+      "code": "6724",
+      "ticker": "6724.T",
+      "company_name": "セイコーエプソン",
+      "current_weight": 0.0,
+      "target_weight": 0.05479295062287528,
+      "change": 0.05479295062287528
+    },
+    {
+      "action": "新規買い",
+      "code": "6971",
+      "ticker": "6971.T",
+      "company_name": "京セラ",
+      "current_weight": 0.0,
+      "target_weight": 0.04840813956226204,
+      "change": 0.04840813956226204
+    },
+    {
+      "action": "新規買い",
+      "code": "3086",
+      "ticker": "3086.T",
+      "company_name": "J.フロント リテイリング",
+      "current_weight": 0.0,
+      "target_weight": 0.042144043318638885,
+      "change": 0.042144043318638885
+    },
+    {
+      "action": "新規買い",
+      "code": "6532",
+      "ticker": "6532.T",
+      "company_name": "ベイカレント",
+      "current_weight": 0.0,
+      "target_weight": 0.03665778697038304,
+      "change": 0.03665778697038304
+    },
+    {
+      "action": "新規買い",
+      "code": "3697",
+      "ticker": "3697.T",
+      "company_name": "SHIFT",
+      "current_weight": 0.0,
+      "target_weight": 0.02794278556135429,
+      "change": 0.02794278556135429
+    },
+    {
+      "action": "新規買い",
+      "code": "6976",
+      "ticker": "6976.T",
+      "company_name": "太陽誘電",
+      "current_weight": 0.0,
+      "target_weight": 0.01630971164957048,
+      "change": 0.01630971164957048
+    }
+  ]
+}

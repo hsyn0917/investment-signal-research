@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "generated_at_jst": "2026-07-31T08:27:57+09:00",
+  "status": "OK",
+  "source_dates": {
+    "japan": "2026-07-29",
+    "us": "2026-07-30"
+  },
+  "source_signal_ages_calendar_days": {
+    "japan": 2,
+    "us": 1
+  },
+  "capital_sleeves": {
+    "japan": 0.8,
+    "us_letf": 0.2
+  },
+  "regimes": {
+    "japan": "リスク抑制",
+    "japan_exposure_within_sleeve": 0.5,
+    "us": "RISK_ON"
+  },
+  "summary": {
+    "risk_asset_weight": 0.4481307699,
+    "defensive_asset_weight": 0.5518692301,
+    "target_weight_total": 0.9999999979
+  },
+  "instructions": [
+    {
+      "market": "日本",
+      "asset": "JPY_CASH",
+      "name": "円待機資金",
+      "currency": "JPY",
+      "action": "一部売却",
+      "previous_weight": 0.8,
+      "target_weight": 0.4,
+      "change_percentage_points": -40.0
+    },
+    {
+      "market": "米国",
+      "asset": "TQQQ",
+      "name": "TQQQ（レバレッジETF）",
+      "currency": "USD",
+      "action": "一部売却",
+      "previous_weight": 0.0408277105,
+      "target_weight": 0.034711286,
+      "change_percentage_points": -0.611642
+    },
+    {
+      "market": "日本",
+      "asset": "5301.T",
+      "name": "東海カーボン",
+      "currency": "JPY",
+      "action": "新規買い",
+      "previous_weight": 0.0,
+      "target_weight": 0.06,
+      "change_percentage_points": 6.0
+    },
+    {
+      "market": "日本",
+      "asset": "8750.T",
+      "name": "第一生命ホールディングス",
+      "currency": "JPY",
+      "action": "新規買い",
+      "previous_weight": 0.0,
+      "target_weight": 0.0595961152,
+      "change_percentage_points": 5.959612
+    },
+    {
+      "market": "日本",
+      "asset": "9147.T",
+      "name": "NIPPON EXPRESSホールディングス",
+      "currency": "JPY",
+      "action": "新規買い",
+      "previous_weight": 0.0,
+      "target_weight": 0.0514329786,
+      "change_percentage_points": 5.143298
+    },
+    {
+      "market": "日本",
+      "asset": "6098.T",
+      "name": "リクルートホールディングス",
+      "currency": "JPY",
+      "action": "新規買い",
+      "previous_weight": 0.0,
+      "target_weight": 0.047966572,
+      "change_percentage_points": 4.796657
+    },
+    {
+      "market": "日本",
+      "asset": "6724.T",
+      "name": "セイコーエプソン",
+      "currency": "JPY",
+      "action": "新規買い",
+      "previous_weight": 0.0,
+      "target_weight": 0.0438343605,
+      "change_percentage_points": 4.383436
+    },
+    {
+      "market": "日本",
+      "asset": "6971.T",
+      "name": "京セラ",
+      "currency": "JPY",
+      "action": "新規買い",
+      "previous_weight": 0.0,
+      "target_weight": 0.0387265116,
+      "change_percentage_points": 3.872651
+    },
+    {
+      "market": "日本",
+      "asset": "3086.T",
+      "name": "J.フロント リテイリング",
+      "currency": "JPY",
+      "action": "新規買い",
+      "previous_weight": 0.0,
+      "target_weight": 0.0337152347,
+      "change_percentage_points": 3.371523
+    },
+    {
+      "market": "日本",
+      "asset": "6532.T",
+      "name": "ベイカレント",
+      "currency": "JPY",
+      "action": "新規買い",
+      "previous_weight": 0.0,
+      "target_weight": 0.0293262296,
+      "change_percentage_points": 2.932623
+    },
+    {
+      "market": "日本",
+      "asset": "3697.T",
+      "name": "SHIFT",
+      "currency": "JPY",
+      "action": "新規買い",
+      "previous_weight": 0.0,
+      "target_weight": 0.0223542284,
+      "change_percentage_points": 2.235423
+    },
+    {
+      "market": "日本",
+      "asset": "6976.T",
+      "name": "太陽誘電",
+      "currency": "JPY",
+      "action": "新規買い",
+      "previous_weight": 0.0,
+      "target_weight": 0.0130477693,
+      "change_percentage_points": 1.304777
+    },
+    {
+      "market": "米国",
+      "asset": "BIL",
+      "name": "BIL（米ドル待機資金）",
+      "currency": "USD",
+      "action": "買い増し",
+      "previous_weight": 0.1439631188,
+      "target_weight": 0.151869228,
+      "change_percentage_points": 0.790611
+    },
+    {
+      "market": "米国",
+      "asset": "SOXL",
+      "name": "SOXL（レバレッジETF）",
+      "currency": "USD",
+      "action": "維持",
+      "previous_weight": 0.0152091707,
+      "target_weight": 0.013419484,
+      "change_percentage_points": -0.178969
+    }
+  ],
+  "warnings": [],
+  "execution_policy": "SIGNAL_ONLY_NO_BROKER_ORDERS",
+  "method": {
+    "japan": "MOM_60_120_REGIME",
+    "us": "200日トレンド + 20日実現ボラティリティ調整",
+    "combination": "固定資本枠の中で各サブ戦略の目標比率を比例配分"
+  }
+}

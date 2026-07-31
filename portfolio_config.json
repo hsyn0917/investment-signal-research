@@ -1,0 +1,8 @@
+{
+  "japan_sleeve": 0.8,
+  "us_letf_sleeve": 0.2,
+  "rebalance_threshold_percentage_points": 0.2,
+  "max_japan_signal_age_calendar_days": 10,
+  "max_us_signal_age_calendar_days": 4,
+  "japan_cash_asset": "JPY_CASH"
+}

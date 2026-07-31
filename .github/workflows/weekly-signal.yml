@@ -1,0 +1,84 @@
+name: Weekly Japan equity signal
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 8 * * 6"
+      timezone: "Asia/Tokyo"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-signal
+  cancel-in-progress: false
+
+jobs:
+  signal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate fresh signal
+        env:
+          REFRESH_DATA: "1"
+        run: |
+          python generate_weekly_signal.py
+          python signal_system/signal_engine.py
+          python generate_combined_signal.py
+
+      - name: Add run summary
+        run: |
+          echo "## Weekly Japan equity signal" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          data = json.loads(Path("signals/latest_signal.json").read_text())
+          print(f"- Signal date: {data['signal_date']}")
+          print(f"- Market: {data['market']['label']}")
+          print(f"- Exposure: {data['market']['exposure']:.0%}")
+          print("")
+          print("|Action|Code|Company|Current|Target|")
+          print("|---|---:|---|---:|---:|")
+          for row in data["instructions"]:
+              if row["action"] != "維持":
+                  print(
+                      f"|{row['action']}|{row['code']}|{row['company_name']}|"
+                      f"{row['current_weight']:.1%}|{row['target_weight']:.1%}|"
+                  )
+          PY
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          cat combined_signals/latest_portfolio.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload combined signal artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-combined-signal-${{ github.run_id }}
+          path: |
+            signals/
+            signal_system/output/
+            combined_signals/
+          retention-days: 30
+
+      - name: Save signal to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add signals/latest_signal.json signals/trade_instructions.csv signals/signal_report.html
+          git add combined_signals/latest_portfolio.json combined_signals/latest_portfolio.md combined_signals/latest_portfolio.html combined_signals/trade_instructions.csv
+          if git diff --cached --quiet; then
+            echo "No signal change"
+          else
+            git commit -m "chore: update weekly investment signal"
+            git push
+          fi

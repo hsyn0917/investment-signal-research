@@ -1,0 +1,11 @@
+{
+  "target_volatility": 0.25,
+  "volatility_window": 20,
+  "trend_window": 200,
+  "tqqq_sleeve": 0.5,
+  "soxl_sleeve": 0.5,
+  "transaction_cost_bps": 5,
+  "rebalance_threshold_percentage_points": 0.5,
+  "cash_proxy": "BIL",
+  "max_data_age_calendar_days": 4
+}

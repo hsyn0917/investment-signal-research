@@ -1,0 +1,42 @@
+name: Daily US and combined signal
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 7 * * 2-5"
+      timezone: "Asia/Tokyo"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: daily-us-combined-signal
+  cancel-in-progress: false
+
+jobs:
+  signal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate US and combined signals
+        run: |
+          python signal_system/signal_engine.py
+          python generate_combined_signal.py
+
+      - name: Add run summary
+        run: cat combined_signals/latest_portfolio.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload signal artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: combined-signal-${{ github.run_id }}
+          path: |
+            signal_system/output/
+            combined_signals/
+          retention-days: 30
