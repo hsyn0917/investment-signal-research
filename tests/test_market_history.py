@@ -39,6 +39,8 @@ class MarketHistoryTests(unittest.TestCase):
         first = payload["points"][0]
         self.assertEqual(first["n225_index"], 100)
         self.assertEqual(first["sp500_index"], 100)
+        self.assertEqual(first["tqqq_index"], 100)
+        self.assertEqual(first["spxl_index"], 100)
         for point in payload["points"]:
             self.assertGreaterEqual(point["risk_asset_weight"], 0)
             self.assertLessEqual(point["risk_asset_weight"], 1)

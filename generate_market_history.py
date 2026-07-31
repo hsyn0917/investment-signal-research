@@ -23,7 +23,7 @@ from signal_system.signal_engine import (
 ROOT = Path(__file__).resolve().parent
 TOKYO = ZoneInfo("Asia/Tokyo")
 US_TICKERS = ("TQQQ", "SOXL", "QQQ", "SOXX")
-ALL_TICKERS = US_TICKERS + ("^N225", "^GSPC", "JPY=X")
+ALL_TICKERS = US_TICKERS + ("SPXL", "^N225", "^GSPC", "JPY=X")
 
 
 def _as_lookup(points: list[PricePoint]) -> tuple[list[date], dict[date, PricePoint]]:
@@ -107,7 +107,15 @@ def build_market_history(
         sp500_latest = _latest_on_or_before(
             dates_by_ticker["^GSPC"], lookup_by_ticker["^GSPC"], day
         )
-        if n225_latest is None or fx_latest is None or sp500_latest is None:
+        spxl_latest = _latest_on_or_before(
+            dates_by_ticker["SPXL"], lookup_by_ticker["SPXL"], day
+        )
+        if (
+            n225_latest is None
+            or fx_latest is None
+            or sp500_latest is None
+            or spxl_latest is None
+        ):
             continue
         n225_day, n225_point = n225_latest
         n225_index = index_by_ticker["^N225"][n225_day]
@@ -127,6 +135,8 @@ def build_market_history(
                 "us_risk_contribution": us_risk,
                 "n225_close": n225_point.close,
                 "sp500_close": sp500_latest[1].close,
+                "tqqq_close": lookup_by_ticker["TQQQ"][day].adjusted_close,
+                "spxl_close": spxl_latest[1].adjusted_close,
                 "usd_jpy": fx_latest[1].close,
             }
         )
@@ -137,6 +147,8 @@ def build_market_history(
     bases = {
         "n225_close": rows[0]["n225_close"],
         "sp500_close": rows[0]["sp500_close"],
+        "tqqq_close": rows[0]["tqqq_close"],
+        "spxl_close": rows[0]["spxl_close"],
     }
     output_rows = []
     for row in rows:
@@ -151,6 +163,12 @@ def build_market_history(
                 "n225_index": round(row["n225_close"] / bases["n225_close"] * 100, 4),
                 "sp500_index": round(
                     row["sp500_close"] / bases["sp500_close"] * 100, 4
+                ),
+                "tqqq_index": round(
+                    row["tqqq_close"] / bases["tqqq_close"] * 100, 4
+                ),
+                "spxl_index": round(
+                    row["spxl_close"] / bases["spxl_close"] * 100, 4
                 ),
                 "usd_jpy": round(row["usd_jpy"], 4),
             }

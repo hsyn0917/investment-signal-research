@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-07-31T12:52:32+09:00",
+  "generated_at_jst": "2026-07-31T12:53:35+09:00",
   "observation_count": 180,
   "method": {
     "risk_allocation": "日本株60日レジーム + 米国200日トレンド・20日ボラ調整",
@@ -15,6 +15,8 @@
       "us_risk_contribution": 0.07090285,
       "n225_index": 100.0,
       "sp500_index": 100.0,
+      "tqqq_index": 100.0,
+      "spxl_index": 100.0,
       "usd_jpy": 153.817
     },
     {
@@ -24,6 +26,8 @@
       "us_risk_contribution": 0.07124915,
       "n225_index": 99.8648,
       "sp500_index": 100.2075,
+      "tqqq_index": 99.1749,
+      "spxl_index": 100.6737,
       "usd_jpy": 154.146
     },
     {
@@ -33,6 +37,8 @@
       "us_risk_contribution": 0.07241804,
       "n225_index": 100.2977,
       "sp500_index": 100.2706,
+      "tqqq_index": 98.9708,
+      "spxl_index": 100.8354,
       "usd_jpy": 154.075
     },
     {
@@ -42,6 +48,8 @@
       "us_risk_contribution": 0.06680962,
       "n225_index": 100.7269,
       "sp500_index": 98.6105,
+      "tqqq_index": 92.8578,
+      "spxl_index": 95.8367,
       "usd_jpy": 154.713
     },
     {
@@ -51,6 +59,8 @@
       "us_risk_contribution": 0.06706271,
       "n225_index": 98.9487,
       "sp500_index": 98.561,
+      "tqqq_index": 92.9288,
+      "spxl_index": 95.7154,
       "usd_jpy": 154.633
     },
     {
@@ -60,6 +70,8 @@
       "us_risk_contribution": 0.06778898,
       "n225_index": 98.8454,
       "sp500_index": 97.6579,
+      "tqqq_index": 90.5421,
+      "spxl_index": 92.9983,
       "usd_jpy": 154.585
     },
     {
@@ -69,6 +81,8 @@
       "us_risk_contribution": 0.06632597,
       "n225_index": 95.6616,
       "sp500_index": 96.8516,
+      "tqqq_index": 87.2682,
+      "spxl_index": 90.6898,
       "usd_jpy": 155.273
     },
     {
@@ -78,6 +92,8 @@
       "us_risk_contribution": 0.06693063,
       "n225_index": 95.3369,
       "sp500_index": 97.2152,
+      "tqqq_index": 88.7676,
+      "spxl_index": 91.6779,
       "usd_jpy": 155.548
     },
     {
@@ -87,6 +103,8 @@
       "us_risk_contribution": 0.0624805,
       "n225_index": 97.8633,
       "sp500_index": 95.7018,
+      "tqqq_index": 82.4239,
+      "spxl_index": 87.4517,
       "usd_jpy": 156.992
     },
     {
@@ -96,6 +114,8 @@
       "us_risk_contribution": 0.0631187,
       "n225_index": 95.5101,
       "sp500_index": 96.6419,
+      "tqqq_index": 84.2516,
+      "spxl_index": 90.0162,
       "usd_jpy": 157.369
     },
     {
@@ -105,6 +125,8 @@
       "us_risk_contribution": 0.05982471,
       "n225_index": 95.5101,
       "sp500_index": 98.1367,
+      "tqqq_index": 90.6397,
+      "spxl_index": 93.9459,
       "usd_jpy": 156.688
     },
     {
@@ -114,6 +136,8 @@
       "us_risk_contribution": 0.0599546,
       "n225_index": 95.5762,
       "sp500_index": 99.026,
+      "tqqq_index": 92.2899,
+      "spxl_index": 96.5463,
       "usd_jpy": 156.939
     },
     {
@@ -123,6 +147,8 @@
       "us_risk_contribution": 0.05906436,
       "n225_index": 97.3431,
       "sp500_index": 99.7099,
+      "tqqq_index": 94.7032,
+      "spxl_index": 98.464,
       "usd_jpy": 156.23
     },
     {
@@ -132,6 +158,8 @@
       "us_risk_contribution": 0.0595357,
       "n225_index": 98.7079,
       "sp500_index": 100.2438,
+      "tqqq_index": 96.7793,
+      "spxl_index": 100.0314,
       "usd_jpy": 156.284
     },
     {
@@ -141,6 +169,8 @@
       "us_risk_contribution": 0.05969578,
       "n225_index": 96.8407,
       "sp500_index": 99.7102,
+      "tqqq_index": 95.9099,
+      "spxl_index": 98.6392,
       "usd_jpy": 155.928
     },
     {
@@ -150,6 +180,8 @@
       "us_risk_contribution": 0.05911636,
       "n225_index": 96.841,
       "sp500_index": 99.9552,
+      "tqqq_index": 98.1279,
+      "spxl_index": 99.1287,
       "usd_jpy": 155.557
     },
     {
@@ -159,6 +191,8 @@
       "us_risk_contribution": 0.06259834,
       "n225_index": 97.9433,
       "sp500_index": 100.2531,
+      "tqqq_index": 98.82,
+      "spxl_index": 100.1437,
       "usd_jpy": 155.807
     },
     {
@@ -168,6 +202,8 @@
       "us_risk_contribution": 0.06361863,
       "n225_index": 100.2291,
       "sp500_index": 100.3614,
+      "tqqq_index": 98.5006,
+      "spxl_index": 100.3997,
       "usd_jpy": 155.107
     },
     {
@@ -177,6 +213,8 @@
       "us_risk_contribution": 0.06708201,
       "n225_index": 99.1753,
       "sp500_index": 100.5557,
+      "tqqq_index": 99.6362,
+      "spxl_index": 100.8398,
       "usd_jpy": 155.142
     },
     {
@@ -186,6 +224,8 @@
       "us_risk_contribution": 0.06727129,
       "n225_index": 99.3522,
       "sp500_index": 100.2061,
+      "tqqq_index": 99.0152,
+      "spxl_index": 99.9147,
       "usd_jpy": 155.34
     },
     {
@@ -195,6 +235,8 @@
       "us_risk_contribution": 0.07223143,
       "n225_index": 99.4959,
       "sp500_index": 100.1183,
+      "tqqq_index": 99.3878,
+      "spxl_index": 99.6003,
       "usd_jpy": 155.844
     },
     {
@@ -204,6 +246,8 @@
       "us_risk_contribution": 0.07292882,
       "n225_index": 99.3931,
       "sp500_index": 100.794,
+      "tqqq_index": 100.5235,
+      "spxl_index": 101.4911,
       "usd_jpy": 156.838
     },
     {
@@ -213,6 +257,8 @@
       "us_risk_contribution": 0.07289987,
       "n225_index": 98.5014,
       "sp500_index": 101.0036,
+      "tqqq_index": 99.5653,
+      "spxl_index": 102.2052,
       "usd_jpy": 155.79
     },
     {
@@ -222,6 +268,8 @@
       "us_risk_contribution": 0.07183609,
       "n225_index": 99.8523,
       "sp500_index": 99.9265,
+      "tqqq_index": 93.7273,
+      "spxl_index": 98.8458,
       "usd_jpy": 155.567
     },
     {
@@ -231,6 +279,8 @@
       "us_risk_contribution": 0.07151616,
       "n225_index": 98.5393,
       "sp500_index": 99.767,
+      "tqqq_index": 92.3077,
+      "spxl_index": 98.3832,
       "usd_jpy": 155.888
     },
     {
@@ -240,6 +290,8 @@
       "us_risk_contribution": 0.07274573,
       "n225_index": 96.9978,
       "sp500_index": 99.5292,
+      "tqqq_index": 92.8578,
+      "spxl_index": 97.5074,
       "usd_jpy": 155.015
     },
     {
@@ -249,6 +301,8 @@
       "us_risk_contribution": 0.06947362,
       "n225_index": 97.2512,
       "sp500_index": 98.3754,
+      "tqqq_index": 87.6586,
+      "spxl_index": 94.1929,
       "usd_jpy": 154.778
     },
     {
@@ -258,6 +312,8 @@
       "us_risk_contribution": 0.067618,
       "n225_index": 96.2479,
       "sp500_index": 99.1559,
+      "tqqq_index": 91.4027,
+      "spxl_index": 96.3756,
       "usd_jpy": 155.495
     },
     {
@@ -267,6 +323,8 @@
       "us_risk_contribution": 0.07571286,
       "n225_index": 97.2412,
       "sp500_index": 100.0303,
+      "tqqq_index": 94.9694,
+      "spxl_index": 98.8907,
       "usd_jpy": 155.586
     },
     {
@@ -276,6 +334,8 @@
       "us_risk_contribution": 0.07593981,
       "n225_index": 98.9995,
       "sp500_index": 100.6741,
+      "tqqq_index": 96.2647,
+      "spxl_index": 100.7006,
       "usd_jpy": 157.676
     },
     {
@@ -285,6 +345,8 @@
       "us_risk_contribution": 0.08727278,
       "n225_index": 99.0201,
       "sp500_index": 101.1322,
+      "tqqq_index": 97.6133,
+      "spxl_index": 102.0724,
       "usd_jpy": 156.877
     },
     {
@@ -294,6 +356,8 @@
       "us_risk_contribution": 0.08773097,
       "n225_index": 98.885,
       "sp500_index": 101.458,
+      "tqqq_index": 98.3882,
+      "spxl_index": 103.0972,
       "usd_jpy": 156.176
     },
     {
@@ -303,6 +367,8 @@
       "us_risk_contribution": 0.09019463,
       "n225_index": 99.683,
       "sp500_index": 101.4272,
+      "tqqq_index": 98.2994,
+      "spxl_index": 102.9803,
       "usd_jpy": 156.09
     },
     {
@@ -312,6 +378,8 @@
       "us_risk_contribution": 0.09109168,
       "n225_index": 99.2441,
       "sp500_index": 101.073,
+      "tqqq_index": 96.842,
+      "spxl_index": 101.8566,
       "usd_jpy": 156.463
     },
     {
@@ -321,6 +389,8 @@
       "us_risk_contribution": 0.09116087,
       "n225_index": 98.8759,
       "sp500_index": 100.9339,
+      "tqqq_index": 96.1489,
+      "spxl_index": 101.4162,
       "usd_jpy": 156.013
     },
     {
@@ -330,6 +400,8 @@
       "us_risk_contribution": 0.09151188,
       "n225_index": 98.8759,
       "sp500_index": 100.1913,
+      "tqqq_index": 93.6963,
+      "spxl_index": 99.1554,
       "usd_jpy": 156.413
     },
     {
@@ -339,6 +411,8 @@
       "us_risk_contribution": 0.08923216,
       "n225_index": 98.8759,
       "sp500_index": 100.3811,
+      "tqqq_index": 93.0387,
+      "spxl_index": 99.6183,
       "usd_jpy": 156.731
     },
     {
@@ -348,6 +422,8 @@
       "us_risk_contribution": 0.08748681,
       "n225_index": 101.8091,
       "sp500_index": 101.019,
+      "tqqq_index": 95.2603,
+      "spxl_index": 101.5915,
       "usd_jpy": 156.989
     },
     {
@@ -357,6 +433,8 @@
       "us_risk_contribution": 0.08476923,
       "n225_index": 103.1551,
       "sp500_index": 101.6449,
+      "tqqq_index": 97.7662,
+      "spxl_index": 103.3758,
       "usd_jpy": 156.626
     },
     {
@@ -366,6 +444,8 @@
       "us_risk_contribution": 0.08466232,
       "n225_index": 102.0628,
       "sp500_index": 101.2953,
+      "tqqq_index": 98.0505,
+      "spxl_index": 102.3735,
       "usd_jpy": 156.68
     },
     {
@@ -375,6 +455,8 @@
       "us_risk_contribution": 0.083584,
       "n225_index": 100.4036,
       "sp500_index": 101.303,
+      "tqqq_index": 96.3088,
+      "spxl_index": 102.2746,
       "usd_jpy": 156.731
     },
     {
@@ -384,6 +466,8 @@
       "us_risk_contribution": 0.08122472,
       "n225_index": 102.0194,
       "sp500_index": 101.959,
+      "tqqq_index": 99.0991,
+      "spxl_index": 104.1938,
       "usd_jpy": 156.88
     },
     {
@@ -393,6 +477,8 @@
       "us_risk_contribution": 0.08147454,
       "n225_index": 102.0194,
       "sp500_index": 102.1199,
+      "tqqq_index": 99.3302,
+      "spxl_index": 104.7062,
       "usd_jpy": 158.149
     },
     {
@@ -402,6 +488,8 @@
       "us_risk_contribution": 0.09502318,
       "n225_index": 105.1803,
       "sp500_index": 101.9219,
+      "tqqq_index": 98.8148,
+      "spxl_index": 104.0006,
       "usd_jpy": 157.986
     },
     {
@@ -411,6 +499,8 @@
       "us_risk_contribution": 0.09240539,
       "n225_index": 106.7361,
       "sp500_index": 101.3783,
+      "tqqq_index": 95.669,
+      "spxl_index": 102.4814,
       "usd_jpy": 159.179
     },
     {
@@ -420,6 +510,8 @@
       "us_risk_contribution": 0.0923248,
       "n225_index": 106.2829,
       "sp500_index": 101.6398,
+      "tqqq_index": 96.6465,
+      "spxl_index": 103.2679,
       "usd_jpy": 158.402
     },
     {
@@ -429,6 +521,8 @@
       "us_risk_contribution": 0.11048155,
       "n225_index": 105.9405,
       "sp500_index": 101.5745,
+      "tqqq_index": 96.22,
+      "spxl_index": 102.8859,
       "usd_jpy": 158.596
     },
     {
@@ -438,6 +532,8 @@
       "us_risk_contribution": 0.09912996,
       "n225_index": 104.0842,
       "sp500_index": 99.4794,
+      "tqqq_index": 90.1596,
+      "spxl_index": 96.5755,
       "usd_jpy": 158.177
     },
     {
@@ -447,6 +543,8 @@
       "us_risk_contribution": 0.09838218,
       "n225_index": 103.659,
       "sp500_index": 100.6321,
+      "tqqq_index": 93.7141,
+      "spxl_index": 99.843,
       "usd_jpy": 158.162
     },
     {
@@ -456,6 +554,8 @@
       "us_risk_contribution": 0.09739451,
       "n225_index": 105.4548,
       "sp500_index": 101.1844,
+      "tqqq_index": 95.7935,
+      "spxl_index": 101.3532,
       "usd_jpy": 158.456
     },
     {
@@ -465,6 +565,8 @@
       "us_risk_contribution": 0.09689795,
       "n225_index": 105.7651,
       "sp500_index": 101.2174,
+      "tqqq_index": 96.6465,
+      "spxl_index": 101.3982,
       "usd_jpy": 158.501
     },
     {
@@ -474,6 +576,8 @@
       "us_risk_contribution": 0.0962751,
       "n225_index": 103.8763,
       "sp500_index": 101.7241,
+      "tqqq_index": 97.8906,
+      "spxl_index": 102.9848,
       "usd_jpy": 155.166
     },
     {
@@ -483,6 +587,8 @@
       "us_risk_contribution": 0.09369626,
       "n225_index": 104.7568,
       "sp500_index": 102.1394,
+      "tqqq_index": 100.4854,
+      "spxl_index": 104.2298,
       "usd_jpy": 154.336
     },
     {
@@ -492,6 +598,8 @@
       "us_risk_contribution": 0.09377628,
       "n225_index": 104.8063,
       "sp500_index": 102.131,
+      "tqqq_index": 101.4095,
+      "spxl_index": 104.1759,
       "usd_jpy": 152.453
     },
     {
@@ -501,6 +609,8 @@
       "us_risk_contribution": 0.09299402,
       "n225_index": 104.8394,
       "sp500_index": 101.999,
+      "tqqq_index": 99.5967,
+      "spxl_index": 103.4387,
       "usd_jpy": 153.096
     },
     {
@@ -510,6 +620,8 @@
       "us_risk_contribution": 0.08731795,
       "n225_index": 104.7358,
       "sp500_index": 101.5602,
+      "tqqq_index": 95.9712,
+      "spxl_index": 102.4634,
       "usd_jpy": 153.162
     },
     {
@@ -519,6 +631,8 @@
       "us_risk_contribution": 0.0885683,
       "n225_index": 103.4244,
       "sp500_index": 102.1077,
+      "tqqq_index": 97.9261,
+      "spxl_index": 103.9601,
       "usd_jpy": 155.202
     },
     {
@@ -528,6 +642,8 @@
       "us_risk_contribution": 0.08358562,
       "n225_index": 107.4814,
       "sp500_index": 101.2496,
+      "tqqq_index": 93.3409,
+      "spxl_index": 101.2768,
       "usd_jpy": 155.443
     },
     {
@@ -537,6 +653,8 @@
       "us_risk_contribution": 0.07867651,
       "n225_index": 106.6421,
       "sp500_index": 100.736,
+      "tqqq_index": 88.4357,
+      "spxl_index": 99.7622,
       "usd_jpy": 155.799
     },
     {
@@ -546,6 +664,8 @@
       "us_risk_contribution": 0.07679361,
       "n225_index": 105.7085,
       "sp500_index": 99.5019,
+      "tqqq_index": 84.6679,
+      "spxl_index": 95.9462,
       "usd_jpy": 156.917
     },
     {
@@ -555,6 +675,8 @@
       "us_risk_contribution": 0.06871267,
       "n225_index": 106.5641,
       "sp500_index": 101.4617,
+      "tqqq_index": 89.9108,
+      "spxl_index": 101.4881,
       "usd_jpy": 156.784
     },
     {
@@ -564,6 +686,8 @@
       "us_risk_contribution": 0.06968382,
       "n225_index": 110.7091,
       "sp500_index": 101.9377,
+      "tqqq_index": 91.9546,
+      "spxl_index": 102.9129,
       "usd_jpy": 157.244
     },
     {
@@ -573,6 +697,8 @@
       "us_risk_contribution": 0.06955195,
       "n225_index": 113.2362,
       "sp500_index": 101.6009,
+      "tqqq_index": 90.675,
+      "spxl_index": 102.0184,
       "usd_jpy": 156.132
     },
     {
@@ -582,6 +708,8 @@
       "us_risk_contribution": 0.06897395,
       "n225_index": 113.2362,
       "sp500_index": 101.5959,
+      "tqqq_index": 91.3503,
+      "spxl_index": 101.969,
       "usd_jpy": 154.482
     },
     {
@@ -591,6 +719,8 @@
       "us_risk_contribution": 0.06577487,
       "n225_index": 113.2152,
       "sp500_index": 100.0048,
+      "tqqq_index": 85.7698,
+      "spxl_index": 97.2317,
       "usd_jpy": 153.269
     },
     {
@@ -600,6 +730,8 @@
       "us_risk_contribution": 0.06605441,
       "n225_index": 111.8444,
       "sp500_index": 100.0547,
+      "tqqq_index": 86.143,
+      "spxl_index": 97.2677,
       "usd_jpy": 152.821
     },
     {
@@ -609,6 +741,8 @@
       "us_risk_contribution": 0.06620141,
       "n225_index": 111.1069,
       "sp500_index": 100.1579,
+      "tqqq_index": 85.9297,
+      "spxl_index": 97.7396,
       "usd_jpy": 153.609
     },
     {
@@ -618,6 +752,8 @@
       "us_risk_contribution": 0.06958606,
       "n225_index": 112.2409,
       "sp500_index": 100.7154,
+      "tqqq_index": 87.7781,
+      "spxl_index": 99.2138,
       "usd_jpy": 153.149
     },
     {
@@ -627,6 +763,8 @@
       "us_risk_contribution": 0.07247039,
       "n225_index": 112.8773,
       "sp500_index": 100.4312,
+      "tqqq_index": 86.7828,
+      "spxl_index": 98.4003,
       "usd_jpy": 154.693
     },
     {
@@ -636,6 +774,8 @@
       "us_risk_contribution": 0.07218578,
       "n225_index": 111.6161,
       "sp500_index": 101.1281,
+      "tqqq_index": 88.9688,
+      "spxl_index": 100.4274,
       "usd_jpy": 155.16
     },
     {
@@ -645,6 +785,8 @@
       "us_risk_contribution": 0.07124159,
       "n225_index": 111.6161,
       "sp500_index": 100.0779,
+      "tqqq_index": 85.7342,
+      "spxl_index": 97.362,
       "usd_jpy": 154.339
     },
     {
@@ -654,6 +796,8 @@
       "us_risk_contribution": 0.06994826,
       "n225_index": 112.5891,
       "sp500_index": 100.8436,
+      "tqqq_index": 88.4712,
+      "spxl_index": 99.47,
       "usd_jpy": 154.635
     },
     {
@@ -663,6 +807,8 @@
       "us_risk_contribution": 0.06895691,
       "n225_index": 115.068,
       "sp500_index": 101.6641,
+      "tqqq_index": 92.1856,
+      "spxl_index": 101.9106,
       "usd_jpy": 155.88
     },
     {
@@ -672,6 +818,8 @@
       "us_risk_contribution": 0.06785351,
       "n225_index": 115.4024,
       "sp500_index": 101.1186,
+      "tqqq_index": 88.9511,
+      "spxl_index": 100.2071,
       "usd_jpy": 156.2
     },
     {
@@ -681,6 +829,8 @@
       "us_risk_contribution": 0.0678155,
       "n225_index": 115.5927,
       "sp500_index": 100.6798,
+      "tqqq_index": 88.0091,
+      "spxl_index": 98.7599,
       "usd_jpy": 155.859
     },
     {
@@ -690,6 +840,8 @@
       "us_risk_contribution": 0.07084995,
       "n225_index": 114.035,
       "sp500_index": 100.7199,
+      "tqqq_index": 88.329,
+      "spxl_index": 98.7958,
       "usd_jpy": 156.633
     },
     {
@@ -699,6 +851,8 @@
       "us_risk_contribution": 0.06831047,
       "n225_index": 110.5423,
       "sp500_index": 99.7687,
+      "tqqq_index": 85.4854,
+      "spxl_index": 96.1575,
       "usd_jpy": 157.257
     },
     {
@@ -708,6 +862,8 @@
       "us_risk_contribution": 0.06764911,
       "n225_index": 106.5481,
       "sp500_index": 100.5426,
+      "tqqq_index": 89.3243,
+      "spxl_index": 98.1396,
       "usd_jpy": 157.773
     },
     {
@@ -717,6 +873,8 @@
       "us_risk_contribution": 0.07267328,
       "n225_index": 108.5762,
       "sp500_index": 99.9748,
+      "tqqq_index": 88.5067,
+      "spxl_index": 96.5845,
       "usd_jpy": 156.983
     },
     {
@@ -726,6 +884,8 @@
       "us_risk_contribution": 0.07029861,
       "n225_index": 109.2495,
       "sp500_index": 98.6475,
+      "tqqq_index": 84.4902,
+      "spxl_index": 92.6652,
       "usd_jpy": 157.534
     },
     {
@@ -735,6 +895,8 @@
       "us_risk_contribution": 0.07498304,
       "n225_index": 103.5688,
       "sp500_index": 99.4667,
+      "tqqq_index": 87.7781,
+      "spxl_index": 95.0743,
       "usd_jpy": 158.427
     },
     {
@@ -744,6 +906,8 @@
       "us_risk_contribution": 0.07596177,
       "n225_index": 106.5537,
       "sp500_index": 99.2543,
+      "tqqq_index": 87.7959,
+      "spxl_index": 94.5259,
       "usd_jpy": 157.848
     },
     {
@@ -753,6 +917,8 @@
       "us_risk_contribution": 0.07604933,
       "n225_index": 108.0799,
       "sp500_index": 99.1712,
+      "tqqq_index": 87.707,
+      "spxl_index": 94.1799,
       "usd_jpy": 158.114
     },
     {
@@ -762,6 +928,8 @@
       "us_risk_contribution": 0.07263178,
       "n225_index": 106.9556,
       "sp500_index": 97.661,
+      "tqqq_index": 83.2283,
+      "spxl_index": 89.8516,
       "usd_jpy": 159.075
     },
     {
@@ -771,6 +939,8 @@
       "us_risk_contribution": 0.07759541,
       "n225_index": 105.7115,
       "sp500_index": 97.0693,
+      "tqqq_index": 81.6288,
+      "spxl_index": 88.2515,
       "usd_jpy": 159.206
     },
     {
@@ -780,6 +950,8 @@
       "us_risk_contribution": 0.07529121,
       "n225_index": 105.5771,
       "sp500_index": 98.0527,
+      "tqqq_index": 84.348,
+      "spxl_index": 90.9078,
       "usd_jpy": 159.568
     },
     {
@@ -789,6 +961,8 @@
       "us_risk_contribution": 0.07485276,
       "n225_index": 105.4774,
       "sp500_index": 98.2972,
+      "tqqq_index": 85.5921,
+      "spxl_index": 91.6224,
       "usd_jpy": 159.105
     },
     {
@@ -798,6 +972,8 @@
       "us_risk_contribution": 0.0733685,
       "n225_index": 108.5003,
       "sp500_index": 96.9596,
+      "tqqq_index": 81.9309,
+      "spxl_index": 87.7975,
       "usd_jpy": 158.889
     },
     {
@@ -807,6 +983,8 @@
       "us_risk_contribution": 0.07335671,
       "n225_index": 104.8334,
       "sp500_index": 96.6931,
+      "tqqq_index": 81.2023,
+      "spxl_index": 87.0829,
       "usd_jpy": 159.795
     },
     {
@@ -816,6 +994,8 @@
       "us_risk_contribution": 0.02309492,
       "n225_index": 104.8334,
       "sp500_index": 95.2294,
+      "tqqq_index": 76.5637,
+      "spxl_index": 83.204,
       "usd_jpy": 157.924
     },
     {
@@ -825,6 +1005,8 @@
       "us_risk_contribution": 0.02282391,
       "n225_index": 101.1858,
       "sp500_index": 96.32,
+      "tqqq_index": 79.2118,
+      "spxl_index": 85.8514,
       "usd_jpy": 159.234
     },
     {
@@ -834,6 +1016,8 @@
       "us_risk_contribution": 0.02287323,
       "n225_index": 102.633,
       "sp500_index": 95.9596,
+      "tqqq_index": 77.5234,
+      "spxl_index": 84.9503,
       "usd_jpy": 158.479
     },
     {
@@ -843,6 +1027,8 @@
       "us_risk_contribution": 0.02301682,
       "n225_index": 105.5741,
       "sp500_index": 96.4796,
+      "tqqq_index": 79.0223,
+      "spxl_index": 86.3469,
       "usd_jpy": 158.718
     },
     {
@@ -852,6 +1038,8 @@
       "us_risk_contribution": 0.02174337,
       "n225_index": 105.2874,
       "sp500_index": 94.8002,
+      "tqqq_index": 73.3969,
+      "spxl_index": 81.7741,
       "usd_jpy": 159.384
     },
     {
@@ -861,6 +1049,8 @@
       "us_risk_contribution": 0.02168211,
       "n225_index": 104.8345,
       "sp500_index": 93.215,
+      "tqqq_index": 69.0355,
+      "spxl_index": 77.5122,
       "usd_jpy": 159.704
     },
     {
@@ -870,6 +1060,8 @@
       "us_risk_contribution": 0.02043831,
       "n225_index": 101.9133,
       "sp500_index": 92.8472,
+      "tqqq_index": 67.4511,
+      "spxl_index": 76.6787,
       "usd_jpy": 159.841
     },
     {
@@ -879,6 +1071,8 @@
       "us_risk_contribution": 0.01906278,
       "n225_index": 100.2985,
       "sp500_index": 95.5519,
+      "tqqq_index": 74.198,
+      "spxl_index": 83.2969,
       "usd_jpy": 158.579
     },
     {
@@ -888,6 +1082,8 @@
       "us_risk_contribution": 0.01872357,
       "n225_index": 105.5545,
       "sp500_index": 96.2369,
+      "tqqq_index": 76.9573,
+      "spxl_index": 85.2116,
       "usd_jpy": 158.688
     },
     {
@@ -897,6 +1093,8 @@
       "us_risk_contribution": 0.01879224,
       "n225_index": 103.0474,
       "sp500_index": 96.3448,
+      "tqqq_index": 77.1353,
+      "spxl_index": 85.4189,
       "usd_jpy": 159.491
     },
     {
@@ -906,6 +1104,8 @@
       "us_risk_contribution": 0.02005043,
       "n225_index": 104.9142,
       "sp500_index": 96.7713,
+      "tqqq_index": 78.506,
+      "spxl_index": 86.4911,
       "usd_jpy": 159.683
     },
     {
@@ -915,6 +1115,8 @@
       "us_risk_contribution": 0.02102303,
       "n225_index": 104.9454,
       "sp500_index": 96.8448,
+      "tqqq_index": 78.5951,
+      "spxl_index": 86.6443,
       "usd_jpy": 158.716
     },
     {
@@ -924,6 +1126,8 @@
       "us_risk_contribution": 0.05268323,
       "n225_index": 110.6,
       "sp500_index": 99.2738,
+      "tqqq_index": 85.4488,
+      "spxl_index": 93.2129,
       "usd_jpy": 158.642
     },
     {
@@ -933,6 +1137,8 @@
       "us_risk_contribution": 0.052356,
       "n225_index": 109.7886,
       "sp500_index": 99.8863,
+      "tqqq_index": 87.1577,
+      "spxl_index": 94.8212,
       "usd_jpy": 159.112
     },
     {
@@ -942,6 +1148,8 @@
       "us_risk_contribution": 0.05455265,
       "n225_index": 111.8093,
       "sp500_index": 99.7726,
+      "tqqq_index": 87.5316,
+      "spxl_index": 94.5014,
       "usd_jpy": 159.112
     },
     {
@@ -951,6 +1159,8 @@
       "us_risk_contribution": 0.05447079,
       "n225_index": 110.9818,
       "sp500_index": 100.7876,
+      "tqqq_index": 90.184,
+      "spxl_index": 97.2721,
       "usd_jpy": 159.214
     },
     {
@@ -960,6 +1170,8 @@
       "us_risk_contribution": 0.05375365,
       "n225_index": 113.6818,
       "sp500_index": 101.9751,
+      "tqqq_index": 95.0795,
+      "spxl_index": 100.7681,
       "usd_jpy": 158.792
     },
     {
@@ -969,6 +1181,8 @@
       "us_risk_contribution": 0.05324104,
       "n225_index": 114.1863,
       "sp500_index": 102.7885,
+      "tqqq_index": 99.0671,
+      "spxl_index": 103.1694,
       "usd_jpy": 158.809
     },
     {
@@ -978,6 +1192,8 @@
       "us_risk_contribution": 0.05460997,
       "n225_index": 116.9049,
       "sp500_index": 103.0567,
+      "tqqq_index": 100.4557,
+      "spxl_index": 103.8992,
       "usd_jpy": 159.195
     },
     {
@@ -987,6 +1203,8 @@
       "us_risk_contribution": 0.05439072,
       "n225_index": 114.8573,
       "sp500_index": 104.2976,
+      "tqqq_index": 104.3009,
+      "spxl_index": 107.553,
       "usd_jpy": 159.195
     },
     {
@@ -996,6 +1214,8 @@
       "us_risk_contribution": 0.0575276,
       "n225_index": 115.5428,
       "sp500_index": 104.0499,
+      "tqqq_index": 103.393,
+      "spxl_index": 106.9223,
       "usd_jpy": 158.844
     },
     {
@@ -1005,6 +1225,8 @@
       "us_risk_contribution": 0.05734034,
       "n225_index": 116.5726,
       "sp500_index": 103.3894,
+      "tqqq_index": 102.1825,
+      "spxl_index": 104.8273,
       "usd_jpy": 159.373
     },
     {
@@ -1014,6 +1236,8 @@
       "us_risk_contribution": 0.05732293,
       "n225_index": 117.0375,
       "sp500_index": 104.4709,
+      "tqqq_index": 107.1848,
+      "spxl_index": 107.9855,
       "usd_jpy": 159.488
     },
     {
@@ -1023,6 +1247,8 @@
       "us_risk_contribution": 0.05666195,
       "n225_index": 116.1622,
       "sp500_index": 104.0391,
+      "tqqq_index": 105.4224,
+      "spxl_index": 106.6024,
       "usd_jpy": 159.747
     },
     {
@@ -1032,6 +1258,8 @@
       "us_risk_contribution": 0.06333294,
       "n225_index": 117.2935,
       "sp500_index": 104.8687,
+      "tqqq_index": 111.3682,
+      "spxl_index": 109.0893,
       "usd_jpy": 159.747
     },
     {
@@ -1041,6 +1269,8 @@
       "us_risk_contribution": 0.06929373,
       "n225_index": 118.9064,
       "sp500_index": 104.9979,
+      "tqqq_index": 111.5106,
+      "spxl_index": 109.6119,
       "usd_jpy": 159.357
     },
     {
@@ -1050,6 +1280,8 @@
       "us_risk_contribution": 0.06918077,
       "n225_index": 117.6888,
       "sp500_index": 104.4841,
+      "tqqq_index": 108.1283,
+      "spxl_index": 107.9945,
       "usd_jpy": 159.552
     },
     {
@@ -1059,6 +1291,8 @@
       "us_risk_contribution": 0.07952227,
       "n225_index": 117.6888,
       "sp500_index": 104.4423,
+      "tqqq_index": 110.1221,
+      "spxl_index": 107.9449,
       "usd_jpy": 160.184
     },
     {
@@ -1068,6 +1302,8 @@
       "us_risk_contribution": 0.08011798,
       "n225_index": 116.4464,
       "sp500_index": 105.5116,
+      "tqqq_index": 113.1128,
+      "spxl_index": 110.995,
       "usd_jpy": 156.978
     },
     {
@@ -1077,6 +1313,8 @@
       "us_risk_contribution": 0.08078683,
       "n225_index": 116.8946,
       "sp500_index": 105.8206,
+      "tqqq_index": 116.2459,
+      "spxl_index": 111.9456,
       "usd_jpy": 156.978
     },
     {
@@ -1086,6 +1324,8 @@
       "us_risk_contribution": 0.07880228,
       "n225_index": 116.8946,
       "sp500_index": 105.3908,
+      "tqqq_index": 115.5516,
+      "spxl_index": 110.7066,
       "usd_jpy": 157.194
     },
     {
@@ -1095,6 +1335,8 @@
       "us_risk_contribution": 0.07792486,
       "n225_index": 116.8946,
       "sp500_index": 106.2465,
+      "tqqq_index": 119.9665,
+      "spxl_index": 113.2836,
       "usd_jpy": 157.677
     },
     {
@@ -1104,6 +1346,8 @@
       "us_risk_contribution": 0.08479242,
       "n225_index": 116.8946,
       "sp500_index": 107.7965,
+      "tqqq_index": 127.4077,
+      "spxl_index": 118.0096,
       "usd_jpy": 156.508
     },
     {
@@ -1113,6 +1357,8 @@
       "us_risk_contribution": 0.0812471,
       "n225_index": 123.4171,
       "sp500_index": 107.3865,
+      "tqqq_index": 126.9982,
+      "spxl_index": 116.8562,
       "usd_jpy": 156.829
     },
     {
@@ -1122,6 +1368,8 @@
       "us_risk_contribution": 0.07572784,
       "n225_index": 123.1811,
       "sp500_index": 108.2913,
+      "tqqq_index": 135.7923,
+      "spxl_index": 119.6405,
       "usd_jpy": 156.829
     },
     {
@@ -1131,6 +1379,8 @@
       "us_risk_contribution": 0.07546317,
       "n225_index": 122.6001,
       "sp500_index": 108.4949,
+      "tqqq_index": 137.0028,
+      "spxl_index": 120.4108,
       "usd_jpy": 157.231
     },
     {
@@ -1140,6 +1390,8 @@
       "us_risk_contribution": 0.07237526,
       "n225_index": 123.2379,
       "sp500_index": 108.321,
+      "tqqq_index": 133.4425,
+      "spxl_index": 119.9243,
       "usd_jpy": 157.671
     },
     {
@@ -1149,6 +1401,8 @@
       "us_risk_contribution": 0.07308903,
       "n225_index": 124.278,
       "sp500_index": 108.9546,
+      "tqqq_index": 137.5013,
+      "spxl_index": 121.9021,
       "usd_jpy": 157.851
     },
     {
@@ -1158,6 +1412,8 @@
       "us_risk_contribution": 0.07300151,
       "n225_index": 123.064,
       "sp500_index": 109.7888,
+      "tqqq_index": 140.5454,
+      "spxl_index": 124.7494,
       "usd_jpy": 158.382
     },
     {
@@ -1167,6 +1423,8 @@
       "us_risk_contribution": 0.06690679,
       "n225_index": 120.6191,
       "sp500_index": 108.4314,
+      "tqqq_index": 134.1189,
+      "spxl_index": 120.109,
       "usd_jpy": 158.382
     },
     {
@@ -1176,6 +1434,8 @@
       "us_risk_contribution": 0.06597999,
       "n225_index": 119.4536,
       "sp500_index": 108.3516,
+      "tqqq_index": 132.3032,
+      "spxl_index": 119.7801,
       "usd_jpy": 158.861
     },
     {
@@ -1185,6 +1445,8 @@
       "us_risk_contribution": 0.06547742,
       "n225_index": 118.9324,
       "sp500_index": 107.628,
+      "tqqq_index": 129.8287,
+      "spxl_index": 117.4509,
       "usd_jpy": 159.035
     },
     {
@@ -1194,6 +1456,8 @@
       "us_risk_contribution": 0.06491648,
       "n225_index": 117.4668,
       "sp500_index": 108.7896,
+      "tqqq_index": 136.2018,
+      "spxl_index": 121.0326,
       "usd_jpy": 158.888
     },
     {
@@ -1203,6 +1467,8 @@
       "us_risk_contribution": 0.06598949,
       "n225_index": 121.1589,
       "sp500_index": 108.9762,
+      "tqqq_index": 136.985,
+      "spxl_index": 121.7489,
       "usd_jpy": 159.018
     },
     {
@@ -1212,6 +1478,8 @@
       "us_risk_contribution": 0.06917535,
       "n225_index": 124.4095,
       "sp500_index": 109.3823,
+      "tqqq_index": 138.5694,
+      "spxl_index": 123.0284,
       "usd_jpy": 159.018
     },
     {
@@ -1221,6 +1489,8 @@
       "us_risk_contribution": 0.06611979,
       "n225_index": 127.6642,
       "sp500_index": 110.0504,
+      "tqqq_index": 145.8859,
+      "spxl_index": 125.4207,
       "usd_jpy": 159.243
     },
     {
@@ -1230,6 +1500,8 @@
       "us_risk_contribution": 0.06935928,
       "n225_index": 127.6707,
       "sp500_index": 110.0686,
+      "tqqq_index": 145.3875,
+      "spxl_index": 125.4116,
       "usd_jpy": 159.568
     },
     {
@@ -1239,6 +1511,8 @@
       "us_risk_contribution": 0.06933224,
       "n225_index": 127.0691,
       "sp500_index": 110.7019,
+      "tqqq_index": 148.9657,
+      "spxl_index": 127.457,
       "usd_jpy": 159.27
     },
     {
@@ -1248,6 +1522,8 @@
       "us_risk_contribution": 0.06953691,
       "n225_index": 130.2833,
       "sp500_index": 110.9424,
+      "tqqq_index": 150.5322,
+      "spxl_index": 128.2409,
       "usd_jpy": 159.27
     },
     {
@@ -1257,6 +1533,8 @@
       "us_risk_contribution": 0.06976184,
       "n225_index": 131.4712,
       "sp500_index": 111.2336,
+      "tqqq_index": 153.1669,
+      "spxl_index": 129.2366,
       "usd_jpy": 159.636
     },
     {
@@ -1266,6 +1544,8 @@
       "us_risk_contribution": 0.06962533,
       "n225_index": 131.0782,
       "sp500_index": 111.3774,
+      "tqqq_index": 155.2675,
+      "spxl_index": 129.7637,
       "usd_jpy": 159.968
     },
     {
@@ -1275,6 +1555,8 @@
       "us_risk_contribution": 0.07020401,
       "n225_index": 134.3543,
       "sp500_index": 110.5563,
+      "tqqq_index": 154.0926,
+      "spxl_index": 127.0606,
       "usd_jpy": 159.94
     },
     {
@@ -1284,6 +1566,8 @@
       "us_risk_contribution": 0.07374901,
       "n225_index": 132.5248,
       "sp500_index": 111.0046,
+      "tqqq_index": 151.7071,
+      "spxl_index": 128.4256,
       "usd_jpy": 159.99
     },
     {
@@ -1293,6 +1577,8 @@
       "us_risk_contribution": 0.0494633,
       "n225_index": 130.7912,
       "sp500_index": 108.069,
+      "tqqq_index": 130.0423,
+      "spxl_index": 118.2889,
       "usd_jpy": 159.99
     },
     {
@@ -1302,6 +1588,8 @@
       "us_risk_contribution": 0.0509351,
       "n225_index": 125.756,
       "sp500_index": 108.3909,
+      "tqqq_index": 135.7745,
+      "spxl_index": 119.1764,
       "usd_jpy": 160.174
     },
     {
@@ -1311,6 +1599,8 @@
       "us_risk_contribution": 0.05040257,
       "n225_index": 128.4902,
       "sp500_index": 108.1116,
+      "tqqq_index": 131.235,
+      "spxl_index": 118.0636,
       "usd_jpy": 160.384
     },
     {
@@ -1320,6 +1610,8 @@
       "us_risk_contribution": 0.04894632,
       "n225_index": 126.0598,
       "sp500_index": 106.3603,
+      "tqqq_index": 123.3132,
+      "spxl_index": 112.4817,
       "usd_jpy": 160.527
     },
     {
@@ -1329,6 +1621,8 @@
       "us_risk_contribution": 0.04432852,
       "n225_index": 126.1344,
       "sp500_index": 108.2236,
+      "tqqq_index": 135.3117,
+      "spxl_index": 118.1357,
       "usd_jpy": 160.13
     },
     {
@@ -1338,6 +1632,8 @@
       "us_risk_contribution": 0.04434435,
       "n225_index": 129.6754,
       "sp500_index": 108.7674,
+      "tqqq_index": 137.9997,
+      "spxl_index": 119.9603,
       "usd_jpy": 160.13
     },
     {
@@ -1347,6 +1643,8 @@
       "us_risk_contribution": 0.04275474,
       "n225_index": 136.1522,
       "sp500_index": 110.5652,
+      "tqqq_index": 150.5856,
+      "spxl_index": 126.2451,
       "usd_jpy": 160.229
     },
     {
@@ -1356,6 +1654,8 @@
       "us_risk_contribution": 0.04125041,
       "n225_index": 136.3231,
       "sp500_index": 109.9367,
+      "tqqq_index": 142.29,
+      "spxl_index": 124.0285,
       "usd_jpy": 160.419
     },
     {
@@ -1365,6 +1665,8 @@
       "us_risk_contribution": 0.04109351,
       "n225_index": 137.3008,
       "sp500_index": 108.6012,
+      "tqqq_index": 138.0353,
+      "spxl_index": 119.3657,
       "usd_jpy": 160.6
     },
     {
@@ -1374,6 +1676,8 @@
       "us_risk_contribution": 0.04029556,
       "n225_index": 139.562,
       "sp500_index": 109.7791,
+      "tqqq_index": 147.5237,
+      "spxl_index": 122.8211,
       "usd_jpy": 161.289
     },
     {
@@ -1383,6 +1687,8 @@
       "us_risk_contribution": 0.04024596,
       "n225_index": 142.1164,
       "sp500_index": 109.3724,
+      "tqqq_index": 147.0075,
+      "spxl_index": 121.6678,
       "usd_jpy": 161.57
     },
     {
@@ -1392,6 +1698,8 @@
       "us_risk_contribution": 0.03706945,
       "n225_index": 137.0771,
       "sp500_index": 107.8015,
+      "tqqq_index": 132.5168,
+      "spxl_index": 116.4465,
       "usd_jpy": 161.599
     },
     {
@@ -1401,6 +1709,8 @@
       "us_risk_contribution": 0.03803839,
       "n225_index": 135.8723,
       "sp500_index": 107.6955,
+      "tqqq_index": 130.7878,
+      "spxl_index": 116.0628,
       "usd_jpy": 161.763
     },
     {
@@ -1410,6 +1720,8 @@
       "us_risk_contribution": 0.03783064,
       "n225_index": 142.1407,
       "sp500_index": 107.6848,
+      "tqqq_index": 133.7319,
+      "spxl_index": 116.2479,
       "usd_jpy": 161.805
     },
     {
@@ -1419,6 +1731,8 @@
       "us_risk_contribution": 0.03736913,
       "n225_index": 136.2374,
       "sp500_index": 107.634,
+      "tqqq_index": 128.1649,
+      "spxl_index": 113.5937,
       "usd_jpy": 161.805
     },
     {
@@ -1428,6 +1742,8 @@
       "us_risk_contribution": 0.03614708,
       "n225_index": 136.4481,
       "sp500_index": 108.8987,
+      "tqqq_index": 137.7287,
+      "spxl_index": 119.6785,
       "usd_jpy": 161.923
     },
     {
@@ -1437,6 +1753,8 @@
       "us_risk_contribution": 0.03560682,
       "n225_index": 137.6152,
       "sp500_index": 109.7612,
+      "tqqq_index": 144.5268,
+      "spxl_index": 122.1793,
       "usd_jpy": 162.628
     },
     {
@@ -1446,6 +1764,8 @@
       "us_risk_contribution": 0.03522933,
       "n225_index": 138.4257,
       "sp500_index": 109.5252,
+      "tqqq_index": 138.2104,
+      "spxl_index": 121.8723,
       "usd_jpy": 162.539
     },
     {
@@ -1455,6 +1775,8 @@
       "us_risk_contribution": 0.03460224,
       "n225_index": 135.0045,
       "sp500_index": 109.5253,
+      "tqqq_index": 130.877,
+      "spxl_index": 121.3396,
       "usd_jpy": 161.449
     },
     {
@@ -1464,6 +1786,8 @@
       "us_risk_contribution": 0.03425606,
       "n225_index": 136.9776,
       "sp500_index": 110.3184,
+      "tqqq_index": 136.3548,
+      "spxl_index": 124.4994,
       "usd_jpy": 162.088
     },
     {
@@ -1473,6 +1797,8 @@
       "us_risk_contribution": 0.03821367,
       "n225_index": 134.0691,
       "sp500_index": 109.827,
+      "tqqq_index": 128.8786,
+      "spxl_index": 122.581,
       "usd_jpy": 162.363
     },
     {
@@ -1482,6 +1808,8 @@
       "us_risk_contribution": 0.03893345,
       "n225_index": 131.2448,
       "sp500_index": 109.5175,
+      "tqqq_index": 129.7529,
+      "spxl_index": 121.4706,
       "usd_jpy": 162.539
     },
     {
@@ -1491,6 +1819,8 @@
       "us_risk_contribution": 0.03857771,
       "n225_index": 133.0613,
       "sp500_index": 110.4093,
+      "tqqq_index": 136.212,
+      "spxl_index": 124.4904,
       "usd_jpy": 162.363
     },
     {
@@ -1500,6 +1830,8 @@
       "us_risk_contribution": 0.03976365,
       "n225_index": 134.6599,
       "sp500_index": 110.874,
+      "tqqq_index": 137.4432,
+      "spxl_index": 126.0206,
       "usd_jpy": 162.363
     },
     {
@@ -1509,6 +1841,8 @@
       "us_risk_contribution": 0.04173989,
       "n225_index": 132.077,
       "sp500_index": 109.9951,
+      "tqqq_index": 129.6102,
+      "spxl_index": 123.1046,
       "usd_jpy": 162.429
     },
     {
@@ -1518,6 +1852,8 @@
       "us_risk_contribution": 0.04149991,
       "n225_index": 133.0606,
       "sp500_index": 110.4086,
+      "tqqq_index": 133.8568,
+      "spxl_index": 124.4182,
       "usd_jpy": 162.187
     },
     {
@@ -1527,6 +1863,8 @@
       "us_risk_contribution": 0.04478489,
       "n225_index": 135.0405,
       "sp500_index": 110.8303,
+      "tqqq_index": 132.8219,
+      "spxl_index": 125.8085,
       "usd_jpy": 162.072
     },
     {
@@ -1536,6 +1874,8 @@
       "us_risk_contribution": 0.04514426,
       "n225_index": 131.2772,
       "sp500_index": 110.2649,
+      "tqqq_index": 126.22,
+      "spxl_index": 123.7907,
       "usd_jpy": 162.376
     },
     {
@@ -1545,6 +1885,8 @@
       "us_risk_contribution": 0.04481308,
       "n225_index": 125.9849,
       "sp500_index": 109.1514,
+      "tqqq_index": 120.4925,
+      "spxl_index": 119.9494,
       "usd_jpy": 162.376
     },
     {
@@ -1554,6 +1896,8 @@
       "us_risk_contribution": 0.0481612,
       "n225_index": 125.9849,
       "sp500_index": 108.9404,
+      "tqqq_index": 120.7066,
+      "spxl_index": 119.4122,
       "usd_jpy": 162.487
     },
     {
@@ -1563,6 +1907,8 @@
       "us_risk_contribution": 0.04598369,
       "n225_index": 130.0921,
       "sp500_index": 109.9053,
+      "tqqq_index": 127.3442,
+      "spxl_index": 122.3463,
       "usd_jpy": 163.186
     },
     {
@@ -1572,6 +1918,8 @@
       "us_risk_contribution": 0.05112258,
       "n225_index": 129.8631,
       "sp500_index": 109.7554,
+      "tqqq_index": 125.3993,
+      "spxl_index": 121.8633,
       "usd_jpy": 163.081
     },
     {
@@ -1581,6 +1929,8 @@
       "us_risk_contribution": 0.04972333,
       "n225_index": 130.4661,
       "sp500_index": 108.4285,
+      "tqqq_index": 118.2978,
+      "spxl_index": 117.3854,
       "usd_jpy": 163.832
     },
     {
@@ -1590,6 +1940,8 @@
       "us_risk_contribution": 0.04973308,
       "n225_index": 126.9081,
       "sp500_index": 108.4823,
+      "tqqq_index": 114.194,
+      "spxl_index": 117.5434,
       "usd_jpy": 163.832
     },
     {
@@ -1599,6 +1951,8 @@
       "us_risk_contribution": 0.05078384,
       "n225_index": 127.5367,
       "sp500_index": 108.4999,
+      "tqqq_index": 113.1234,
+      "spxl_index": 117.6247,
       "usd_jpy": 163.771
     },
     {
@@ -1608,6 +1962,8 @@
       "us_risk_contribution": 0.05448087,
       "n225_index": 122.4961,
       "sp500_index": 108.7282,
+      "tqqq_index": 109.8404,
+      "spxl_index": 118.4552,
       "usd_jpy": 163.864
     },
     {
@@ -1617,6 +1973,8 @@
       "us_risk_contribution": 0.05603688,
       "n225_index": 120.668,
       "sp500_index": 107.0798,
+      "tqqq_index": 103.0422,
+      "spxl_index": 112.9392,
       "usd_jpy": 163.3
     },
     {
@@ -1626,6 +1984,8 @@
       "us_risk_contribution": 0.04813077,
       "n225_index": 121.5189,
       "sp500_index": 108.8578,
+      "tqqq_index": 112.945,
+      "spxl_index": 118.6764,
       "usd_jpy": 163.3
     }
   ]
