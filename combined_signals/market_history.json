@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-07-31T12:43:17+09:00",
+  "generated_at_jst": "2026-07-31T12:52:32+09:00",
   "observation_count": 180,
   "method": {
     "risk_allocation": "日本株60日レジーム + 米国200日トレンド・20日ボラ調整",
@@ -10,32 +10,29 @@
   "points": [
     {
       "date": "2025-11-10",
-      "risk_asset_weight": 0.87090284,
+      "risk_asset_weight": 0.87090285,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07090284,
+      "us_risk_contribution": 0.07090285,
       "n225_index": 100.0,
-      "qqq_index": 100.0,
-      "soxx_index": 100.0,
+      "sp500_index": 100.0,
       "usd_jpy": 153.817
     },
     {
       "date": "2025-11-11",
-      "risk_asset_weight": 0.87124914,
+      "risk_asset_weight": 0.87124915,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07124914,
+      "us_risk_contribution": 0.07124915,
       "n225_index": 99.8648,
-      "qqq_index": 99.7336,
-      "soxx_index": 97.7318,
+      "sp500_index": 100.2075,
       "usd_jpy": 154.146
     },
     {
       "date": "2025-11-12",
-      "risk_asset_weight": 0.87241803,
+      "risk_asset_weight": 0.87241804,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07241803,
+      "us_risk_contribution": 0.07241804,
       "n225_index": 100.2977,
-      "qqq_index": 99.655,
-      "soxx_index": 99.2285,
+      "sp500_index": 100.2706,
       "usd_jpy": 154.075
     },
     {
@@ -44,28 +41,25 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06680962,
       "n225_index": 100.7269,
-      "qqq_index": 97.6205,
-      "soxx_index": 95.8212,
+      "sp500_index": 98.6105,
       "usd_jpy": 154.713
     },
     {
       "date": "2025-11-14",
-      "risk_asset_weight": 0.8670627,
+      "risk_asset_weight": 0.86706271,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.0670627,
+      "us_risk_contribution": 0.06706271,
       "n225_index": 98.9487,
-      "qqq_index": 97.6943,
-      "soxx_index": 95.5364,
+      "sp500_index": 98.561,
       "usd_jpy": 154.633
     },
     {
       "date": "2025-11-17",
-      "risk_asset_weight": 0.86778897,
+      "risk_asset_weight": 0.86778898,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.06778897,
+      "us_risk_contribution": 0.06778898,
       "n225_index": 98.8454,
-      "qqq_index": 96.8599,
-      "soxx_index": 93.894,
+      "sp500_index": 97.6579,
       "usd_jpy": 154.585
     },
     {
@@ -74,8 +68,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06632597,
       "n225_index": 95.6616,
-      "qqq_index": 95.6806,
-      "soxx_index": 91.7152,
+      "sp500_index": 96.8516,
       "usd_jpy": 155.273
     },
     {
@@ -84,8 +77,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06693063,
       "n225_index": 95.3369,
-      "qqq_index": 96.2518,
-      "soxx_index": 93.2483,
+      "sp500_index": 97.2152,
       "usd_jpy": 155.548
     },
     {
@@ -94,8 +86,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.0624805,
       "n225_index": 97.8633,
-      "qqq_index": 93.9733,
-      "soxx_index": 88.7748,
+      "sp500_index": 95.7018,
       "usd_jpy": 156.992
     },
     {
@@ -104,8 +95,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.0631187,
       "n225_index": 95.5101,
-      "qqq_index": 94.6793,
-      "soxx_index": 89.6788,
+      "sp500_index": 96.6419,
       "usd_jpy": 157.369
     },
     {
@@ -114,18 +104,16 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.05982471,
       "n225_index": 95.5101,
-      "qqq_index": 97.1006,
-      "soxx_index": 93.6093,
+      "sp500_index": 98.1367,
       "usd_jpy": 156.688
     },
     {
       "date": "2025-11-25",
-      "risk_asset_weight": 0.85995461,
+      "risk_asset_weight": 0.8599546,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.05995461,
+      "us_risk_contribution": 0.0599546,
       "n225_index": 95.5762,
-      "qqq_index": 97.6991,
-      "soxx_index": 93.9007,
+      "sp500_index": 99.026,
       "usd_jpy": 156.939
     },
     {
@@ -134,28 +122,25 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.05906436,
       "n225_index": 97.3431,
-      "qqq_index": 98.5623,
-      "soxx_index": 96.4868,
+      "sp500_index": 99.7099,
       "usd_jpy": 156.23
     },
     {
       "date": "2025-11-28",
-      "risk_asset_weight": 0.85953571,
+      "risk_asset_weight": 0.8595357,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.05953571,
+      "us_risk_contribution": 0.0595357,
       "n225_index": 98.7079,
-      "qqq_index": 99.3614,
-      "soxx_index": 98.2583,
+      "sp500_index": 100.2438,
       "usd_jpy": 156.284
     },
     {
       "date": "2025-12-01",
-      "risk_asset_weight": 0.85969579,
+      "risk_asset_weight": 0.85969578,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.05969579,
+      "us_risk_contribution": 0.05969578,
       "n225_index": 96.8407,
-      "qqq_index": 99.0276,
-      "soxx_index": 98.3179,
+      "sp500_index": 99.7102,
       "usd_jpy": 155.928
     },
     {
@@ -164,18 +149,16 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.05911636,
       "n225_index": 96.841,
-      "qqq_index": 99.8026,
-      "soxx_index": 100.2781,
+      "sp500_index": 99.9552,
       "usd_jpy": 155.557
     },
     {
       "date": "2025-12-03",
-      "risk_asset_weight": 0.86259835,
+      "risk_asset_weight": 0.86259834,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.06259835,
+      "us_risk_contribution": 0.06259834,
       "n225_index": 97.9433,
-      "qqq_index": 100.0465,
-      "soxx_index": 102.4371,
+      "sp500_index": 100.2531,
       "usd_jpy": 155.807
     },
     {
@@ -184,8 +167,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06361863,
       "n225_index": 100.2291,
-      "qqq_index": 99.9535,
-      "soxx_index": 101.4172,
+      "sp500_index": 100.3614,
       "usd_jpy": 155.107
     },
     {
@@ -194,48 +176,43 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06708201,
       "n225_index": 99.1753,
-      "qqq_index": 100.361,
-      "soxx_index": 102.4503,
+      "sp500_index": 100.5557,
       "usd_jpy": 155.142
     },
     {
       "date": "2025-12-08",
-      "risk_asset_weight": 0.8672713,
+      "risk_asset_weight": 0.86727129,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.0672713,
+      "us_risk_contribution": 0.06727129,
       "n225_index": 99.3522,
-      "qqq_index": 100.1685,
-      "soxx_index": 103.5629,
+      "sp500_index": 100.2061,
       "usd_jpy": 155.34
     },
     {
       "date": "2025-12-09",
-      "risk_asset_weight": 0.87223144,
+      "risk_asset_weight": 0.87223143,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07223144,
+      "us_risk_contribution": 0.07223143,
       "n225_index": 99.4959,
-      "qqq_index": 100.292,
-      "soxx_index": 103.3709,
+      "sp500_index": 100.1183,
       "usd_jpy": 155.844
     },
     {
       "date": "2025-12-10",
-      "risk_asset_weight": 0.87292883,
+      "risk_asset_weight": 0.87292882,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07292883,
+      "us_risk_contribution": 0.07292882,
       "n225_index": 99.3931,
-      "qqq_index": 100.7028,
-      "soxx_index": 104.745,
+      "sp500_index": 100.794,
       "usd_jpy": 156.838
     },
     {
       "date": "2025-12-11",
-      "risk_asset_weight": 0.87289988,
+      "risk_asset_weight": 0.87289987,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07289988,
+      "us_risk_contribution": 0.07289987,
       "n225_index": 98.5014,
-      "qqq_index": 100.3771,
-      "soxx_index": 104.1457,
+      "sp500_index": 101.0036,
       "usd_jpy": 155.79
     },
     {
@@ -244,8 +221,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07183609,
       "n225_index": 99.8523,
-      "qqq_index": 98.458,
-      "soxx_index": 99.1656,
+      "sp500_index": 99.9265,
       "usd_jpy": 155.567
     },
     {
@@ -254,238 +230,214 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07151616,
       "n225_index": 98.5393,
-      "qqq_index": 97.9638,
-      "soxx_index": 98.6788,
+      "sp500_index": 99.767,
       "usd_jpy": 155.888
     },
     {
       "date": "2025-12-16",
-      "risk_asset_weight": 0.87274574,
+      "risk_asset_weight": 0.87274573,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07274574,
+      "us_risk_contribution": 0.07274573,
       "n225_index": 96.9978,
-      "qqq_index": 98.158,
-      "soxx_index": 98.0795,
+      "sp500_index": 99.5292,
       "usd_jpy": 155.015
     },
     {
       "date": "2025-12-17",
-      "risk_asset_weight": 0.86947361,
+      "risk_asset_weight": 0.86947362,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.06947361,
+      "us_risk_contribution": 0.06947362,
       "n225_index": 97.2512,
-      "qqq_index": 96.3384,
-      "soxx_index": 94.447,
+      "sp500_index": 98.3754,
       "usd_jpy": 154.778
     },
     {
       "date": "2025-12-18",
-      "risk_asset_weight": 0.46761798,
+      "risk_asset_weight": 0.467618,
       "japan_risk_contribution": 0.4,
-      "us_risk_contribution": 0.06761798,
+      "us_risk_contribution": 0.067618,
       "n225_index": 96.2479,
-      "qqq_index": 97.7344,
-      "soxx_index": 96.702,
+      "sp500_index": 99.1559,
       "usd_jpy": 155.495
     },
     {
       "date": "2025-12-19",
-      "risk_asset_weight": 0.87571283,
+      "risk_asset_weight": 0.87571286,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07571283,
+      "us_risk_contribution": 0.07571286,
       "n225_index": 97.2412,
-      "qqq_index": 99.0084,
-      "soxx_index": 99.2748,
+      "sp500_index": 100.0303,
       "usd_jpy": 155.586
     },
     {
       "date": "2025-12-22",
-      "risk_asset_weight": 0.87593978,
+      "risk_asset_weight": 0.87593981,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07593978,
+      "us_risk_contribution": 0.07593981,
       "n225_index": 98.9995,
-      "qqq_index": 99.355,
-      "soxx_index": 100.6093,
+      "sp500_index": 100.6741,
       "usd_jpy": 157.676
     },
     {
       "date": "2025-12-23",
-      "risk_asset_weight": 0.88727273,
+      "risk_asset_weight": 0.88727278,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.08727273,
+      "us_risk_contribution": 0.08727278,
       "n225_index": 99.0201,
-      "qqq_index": 99.8203,
-      "soxx_index": 100.9801,
+      "sp500_index": 101.1322,
       "usd_jpy": 156.877
     },
     {
       "date": "2025-12-24",
-      "risk_asset_weight": 0.88773092,
+      "risk_asset_weight": 0.88773097,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.08773092,
+      "us_risk_contribution": 0.08773097,
       "n225_index": 98.885,
-      "qqq_index": 100.1123,
-      "soxx_index": 101.3709,
+      "sp500_index": 101.458,
       "usd_jpy": 156.176
     },
     {
       "date": "2025-12-26",
-      "risk_asset_weight": 0.89019456,
+      "risk_asset_weight": 0.89019463,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.09019456,
+      "us_risk_contribution": 0.09019463,
       "n225_index": 99.683,
-      "qqq_index": 100.1059,
-      "soxx_index": 101.3378,
+      "sp500_index": 101.4272,
       "usd_jpy": 156.09
     },
     {
       "date": "2025-12-29",
-      "risk_asset_weight": 0.89109162,
+      "risk_asset_weight": 0.89109168,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.09109162,
+      "us_risk_contribution": 0.09109168,
       "n225_index": 99.2441,
-      "qqq_index": 99.6213,
-      "soxx_index": 101.0993,
+      "sp500_index": 101.073,
       "usd_jpy": 156.463
     },
     {
       "date": "2025-12-30",
-      "risk_asset_weight": 0.89116082,
+      "risk_asset_weight": 0.89116087,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.09116082,
+      "us_risk_contribution": 0.09116087,
       "n225_index": 98.8759,
-      "qqq_index": 99.3903,
-      "soxx_index": 100.9669,
+      "sp500_index": 100.9339,
       "usd_jpy": 156.013
     },
     {
       "date": "2025-12-31",
-      "risk_asset_weight": 0.89151183,
+      "risk_asset_weight": 0.89151188,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.09151183,
+      "us_risk_contribution": 0.09151188,
       "n225_index": 98.8759,
-      "qqq_index": 98.5687,
-      "soxx_index": 99.7185,
+      "sp500_index": 100.1913,
       "usd_jpy": 156.413
     },
     {
       "date": "2026-01-02",
-      "risk_asset_weight": 0.88923211,
+      "risk_asset_weight": 0.88923216,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.08923211,
+      "us_risk_contribution": 0.08923216,
       "n225_index": 98.8759,
-      "qqq_index": 98.3778,
-      "soxx_index": 103.8709,
+      "sp500_index": 100.3811,
       "usd_jpy": 156.731
     },
     {
       "date": "2026-01-05",
-      "risk_asset_weight": 0.88748676,
+      "risk_asset_weight": 0.88748681,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.08748676,
+      "us_risk_contribution": 0.08748681,
       "n225_index": 101.8091,
-      "qqq_index": 99.1592,
-      "soxx_index": 105.3179,
+      "sp500_index": 101.019,
       "usd_jpy": 156.989
     },
     {
       "date": "2026-01-06",
-      "risk_asset_weight": 0.88476919,
+      "risk_asset_weight": 0.88476923,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.08476919,
+      "us_risk_contribution": 0.08476923,
       "n225_index": 103.1551,
-      "qqq_index": 100.0305,
-      "soxx_index": 108.7252,
+      "sp500_index": 101.6449,
       "usd_jpy": 156.626
     },
     {
       "date": "2026-01-07",
-      "risk_asset_weight": 0.88466228,
+      "risk_asset_weight": 0.88466232,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.08466228,
+      "us_risk_contribution": 0.08466232,
       "n225_index": 102.0628,
-      "qqq_index": 100.1268,
-      "soxx_index": 107.5795,
+      "sp500_index": 101.2953,
       "usd_jpy": 156.68
     },
     {
       "date": "2026-01-08",
-      "risk_asset_weight": 0.88358396,
+      "risk_asset_weight": 0.883584,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.08358396,
+      "us_risk_contribution": 0.083584,
       "n225_index": 100.4036,
-      "qqq_index": 99.5571,
-      "soxx_index": 105.8212,
+      "sp500_index": 101.303,
       "usd_jpy": 156.731
     },
     {
       "date": "2026-01-09",
-      "risk_asset_weight": 0.88122468,
+      "risk_asset_weight": 0.88122472,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.08122468,
+      "us_risk_contribution": 0.08122472,
       "n225_index": 102.0194,
-      "qqq_index": 100.5488,
-      "soxx_index": 108.8675,
+      "sp500_index": 101.959,
       "usd_jpy": 156.88
     },
     {
       "date": "2026-01-12",
-      "risk_asset_weight": 0.88147449,
+      "risk_asset_weight": 0.88147454,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.08147449,
+      "us_risk_contribution": 0.08147454,
       "n225_index": 102.0194,
-      "qqq_index": 100.6322,
-      "soxx_index": 109.3874,
+      "sp500_index": 102.1199,
       "usd_jpy": 158.149
     },
     {
       "date": "2026-01-13",
-      "risk_asset_weight": 0.89502314,
+      "risk_asset_weight": 0.89502318,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.09502314,
+      "us_risk_contribution": 0.09502318,
       "n225_index": 105.1803,
-      "qqq_index": 100.483,
-      "soxx_index": 110.3642,
+      "sp500_index": 101.9219,
       "usd_jpy": 157.986
     },
     {
       "date": "2026-01-14",
-      "risk_asset_weight": 0.89240535,
+      "risk_asset_weight": 0.89240539,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.09240535,
+      "us_risk_contribution": 0.09240539,
       "n225_index": 106.7361,
-      "qqq_index": 99.4095,
-      "soxx_index": 109.9007,
+      "sp500_index": 101.3783,
       "usd_jpy": 159.179
     },
     {
       "date": "2026-01-15",
-      "risk_asset_weight": 0.89232476,
+      "risk_asset_weight": 0.8923248,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.09232476,
+      "us_risk_contribution": 0.0923248,
       "n225_index": 106.2829,
-      "qqq_index": 99.7673,
-      "soxx_index": 111.6623,
+      "sp500_index": 101.6398,
       "usd_jpy": 158.402
     },
     {
       "date": "2026-01-16",
-      "risk_asset_weight": 0.91048152,
+      "risk_asset_weight": 0.91048155,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.11048152,
+      "us_risk_contribution": 0.11048155,
       "n225_index": 105.9405,
-      "qqq_index": 99.6839,
-      "soxx_index": 113.4007,
+      "sp500_index": 101.5745,
       "usd_jpy": 158.596
     },
     {
       "date": "2026-01-20",
-      "risk_asset_weight": 0.89912998,
+      "risk_asset_weight": 0.89912996,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.09912998,
+      "us_risk_contribution": 0.09912996,
       "n225_index": 104.0842,
-      "qqq_index": 97.5659,
-      "soxx_index": 111.7053,
+      "sp500_index": 99.4794,
       "usd_jpy": 158.177
     },
     {
@@ -494,8 +446,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.09838218,
       "n225_index": 103.659,
-      "qqq_index": 98.8848,
-      "soxx_index": 115.2782,
+      "sp500_index": 100.6321,
       "usd_jpy": 158.162
     },
     {
@@ -504,8 +455,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.09739451,
       "n225_index": 105.4548,
-      "qqq_index": 99.6037,
-      "soxx_index": 115.4536,
+      "sp500_index": 101.1844,
       "usd_jpy": 158.456
     },
     {
@@ -514,8 +464,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.09689795,
       "n225_index": 105.7651,
-      "qqq_index": 99.9182,
-      "soxx_index": 114.1424,
+      "sp500_index": 101.2174,
       "usd_jpy": 158.501
     },
     {
@@ -524,8 +473,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.0962751,
       "n225_index": 103.8763,
-      "qqq_index": 100.3578,
-      "soxx_index": 113.5993,
+      "sp500_index": 101.7241,
       "usd_jpy": 155.166
     },
     {
@@ -534,8 +482,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.09369626,
       "n225_index": 104.7568,
-      "qqq_index": 101.2676,
-      "soxx_index": 116.2517,
+      "sp500_index": 102.1394,
       "usd_jpy": 154.336
     },
     {
@@ -544,8 +491,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.09377628,
       "n225_index": 104.8063,
-      "qqq_index": 101.6029,
-      "soxx_index": 119.3576,
+      "sp500_index": 102.131,
       "usd_jpy": 152.453
     },
     {
@@ -554,8 +500,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.09299402,
       "n225_index": 104.8394,
-      "qqq_index": 100.9948,
-      "soxx_index": 119.5795,
+      "sp500_index": 101.999,
       "usd_jpy": 153.096
     },
     {
@@ -564,8 +509,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.08731795,
       "n225_index": 104.7358,
-      "qqq_index": 99.7818,
-      "soxx_index": 114.6689,
+      "sp500_index": 101.5602,
       "usd_jpy": 153.162
     },
     {
@@ -574,8 +518,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.0885683,
       "n225_index": 103.4244,
-      "qqq_index": 100.4669,
-      "soxx_index": 116.7848,
+      "sp500_index": 102.1077,
       "usd_jpy": 155.202
     },
     {
@@ -584,8 +527,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.08358562,
       "n225_index": 107.4814,
-      "qqq_index": 98.9234,
-      "soxx_index": 114.4503,
+      "sp500_index": 101.2496,
       "usd_jpy": 155.443
     },
     {
@@ -594,8 +536,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07867651,
       "n225_index": 106.6421,
-      "qqq_index": 97.1953,
-      "soxx_index": 109.3974,
+      "sp500_index": 100.736,
       "usd_jpy": 155.799
     },
     {
@@ -604,8 +545,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07679361,
       "n225_index": 105.7085,
-      "qqq_index": 95.7961,
-      "soxx_index": 109.5464,
+      "sp500_index": 99.5019,
       "usd_jpy": 156.917
     },
     {
@@ -614,8 +554,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06871267,
       "n225_index": 106.5641,
-      "qqq_index": 97.821,
-      "soxx_index": 115.4007,
+      "sp500_index": 101.4617,
       "usd_jpy": 156.784
     },
     {
@@ -624,8 +563,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06968382,
       "n225_index": 110.7091,
-      "qqq_index": 98.5704,
-      "soxx_index": 116.8113,
+      "sp500_index": 101.9377,
       "usd_jpy": 157.244
     },
     {
@@ -634,8 +572,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06955195,
       "n225_index": 113.2362,
-      "qqq_index": 98.1131,
-      "soxx_index": 116.3675,
+      "sp500_index": 101.6009,
       "usd_jpy": 156.132
     },
     {
@@ -644,8 +581,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06897395,
       "n225_index": 113.2362,
-      "qqq_index": 98.3762,
-      "soxx_index": 119.2715,
+      "sp500_index": 101.5959,
       "usd_jpy": 154.482
     },
     {
@@ -654,8 +590,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06577487,
       "n225_index": 113.2152,
-      "qqq_index": 96.3753,
-      "soxx_index": 116.3907,
+      "sp500_index": 100.0048,
       "usd_jpy": 153.269
     },
     {
@@ -664,8 +599,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06605441,
       "n225_index": 111.8444,
-      "qqq_index": 96.5807,
-      "soxx_index": 117.4371,
+      "sp500_index": 100.0547,
       "usd_jpy": 152.821
     },
     {
@@ -674,8 +608,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06620141,
       "n225_index": 111.1069,
-      "qqq_index": 96.4812,
-      "soxx_index": 117.2517,
+      "sp500_index": 100.1579,
       "usd_jpy": 153.609
     },
     {
@@ -684,8 +617,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06958606,
       "n225_index": 112.2409,
-      "qqq_index": 97.2017,
-      "soxx_index": 118.5166,
+      "sp500_index": 100.7154,
       "usd_jpy": 153.149
     },
     {
@@ -694,8 +626,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07247039,
       "n225_index": 112.8773,
-      "qqq_index": 96.8294,
-      "soxx_index": 117.8278,
+      "sp500_index": 100.4312,
       "usd_jpy": 154.693
     },
     {
@@ -704,8 +635,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07218578,
       "n225_index": 111.6161,
-      "qqq_index": 97.6863,
-      "soxx_index": 119.0166,
+      "sp500_index": 101.1281,
       "usd_jpy": 155.16
     },
     {
@@ -714,8 +644,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07124159,
       "n225_index": 111.6161,
-      "qqq_index": 96.4989,
-      "soxx_index": 118.1523,
+      "sp500_index": 100.0779,
       "usd_jpy": 154.339
     },
     {
@@ -724,8 +653,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06994826,
       "n225_index": 112.5891,
-      "qqq_index": 97.5354,
-      "soxx_index": 119.8808,
+      "sp500_index": 100.8436,
       "usd_jpy": 154.635
     },
     {
@@ -734,8 +662,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06895691,
       "n225_index": 115.068,
-      "qqq_index": 98.949,
-      "soxx_index": 121.8543,
+      "sp500_index": 101.6641,
       "usd_jpy": 155.88
     },
     {
@@ -744,8 +671,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06785351,
       "n225_index": 115.4024,
-      "qqq_index": 97.7552,
-      "soxx_index": 118.1457,
+      "sp500_index": 101.1186,
       "usd_jpy": 156.2
     },
     {
@@ -754,8 +680,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.0678155,
       "n225_index": 115.5927,
-      "qqq_index": 97.4424,
-      "soxx_index": 116.6523,
+      "sp500_index": 100.6798,
       "usd_jpy": 155.859
     },
     {
@@ -764,8 +689,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07084995,
       "n225_index": 114.035,
-      "qqq_index": 97.5707,
-      "soxx_index": 116.5728,
+      "sp500_index": 100.7199,
       "usd_jpy": 156.633
     },
     {
@@ -774,8 +698,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06831047,
       "n225_index": 110.5423,
-      "qqq_index": 96.5262,
-      "soxx_index": 110.8543,
+      "sp500_index": 99.7687,
       "usd_jpy": 157.257
     },
     {
@@ -784,8 +707,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06764911,
       "n225_index": 106.5481,
-      "qqq_index": 97.9975,
-      "soxx_index": 113.0927,
+      "sp500_index": 100.5426,
       "usd_jpy": 157.773
     },
     {
@@ -794,8 +716,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07267328,
       "n225_index": 108.5762,
-      "qqq_index": 97.7023,
-      "soxx_index": 111.8411,
+      "sp500_index": 99.9748,
       "usd_jpy": 156.983
     },
     {
@@ -804,8 +725,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07029861,
       "n225_index": 109.2495,
-      "qqq_index": 96.2325,
-      "soxx_index": 107.1225,
+      "sp500_index": 98.6475,
       "usd_jpy": 157.534
     },
     {
@@ -814,8 +734,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.07498304,
       "n225_index": 103.5688,
-      "qqq_index": 97.5178,
-      "soxx_index": 111.3808,
+      "sp500_index": 99.4667,
       "usd_jpy": 158.427
     },
     {
@@ -824,8 +743,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07596177,
       "n225_index": 106.5537,
-      "qqq_index": 97.5194,
-      "soxx_index": 112.1887,
+      "sp500_index": 99.2543,
       "usd_jpy": 157.848
     },
     {
@@ -834,8 +752,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07604933,
       "n225_index": 108.0799,
-      "qqq_index": 97.5065,
-      "soxx_index": 113.2748,
+      "sp500_index": 99.1712,
       "usd_jpy": 158.114
     },
     {
@@ -844,8 +761,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07263178,
       "n225_index": 106.9556,
-      "qqq_index": 95.833,
-      "soxx_index": 109.3344,
+      "sp500_index": 97.661,
       "usd_jpy": 159.075
     },
     {
@@ -854,8 +770,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07759541,
       "n225_index": 105.7115,
-      "qqq_index": 95.265,
-      "soxx_index": 109.7086,
+      "sp500_index": 97.0693,
       "usd_jpy": 159.206
     },
     {
@@ -864,8 +779,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.07529121,
       "n225_index": 105.5771,
-      "qqq_index": 96.3336,
-      "soxx_index": 111.8642,
+      "sp500_index": 98.0527,
       "usd_jpy": 159.568
     },
     {
@@ -874,8 +788,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.07485276,
       "n225_index": 105.4774,
-      "qqq_index": 96.8038,
-      "soxx_index": 112.6656,
+      "sp500_index": 98.2972,
       "usd_jpy": 159.105
     },
     {
@@ -884,8 +797,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.0733685,
       "n225_index": 108.5003,
-      "qqq_index": 95.4543,
-      "soxx_index": 112.0166,
+      "sp500_index": 96.9596,
       "usd_jpy": 158.889
     },
     {
@@ -894,8 +806,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.07335671,
       "n225_index": 104.8334,
-      "qqq_index": 95.1527,
-      "soxx_index": 112.649,
+      "sp500_index": 96.6931,
       "usd_jpy": 159.795
     },
     {
@@ -904,8 +815,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.02309492,
       "n225_index": 104.8334,
-      "qqq_index": 93.3941,
-      "soxx_index": 110.1027,
+      "sp500_index": 95.2294,
       "usd_jpy": 157.924
     },
     {
@@ -914,8 +824,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.02282391,
       "n225_index": 101.1858,
-      "qqq_index": 94.3472,
-      "soxx_index": 111.4536,
+      "sp500_index": 96.32,
       "usd_jpy": 159.234
     },
     {
@@ -924,8 +833,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.02287323,
       "n225_index": 102.633,
-      "qqq_index": 93.7022,
-      "soxx_index": 112.9205,
+      "sp500_index": 95.9596,
       "usd_jpy": 158.479
     },
     {
@@ -934,8 +842,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.02301682,
       "n225_index": 105.5741,
-      "qqq_index": 94.3183,
-      "soxx_index": 114.3212,
+      "sp500_index": 96.4796,
       "usd_jpy": 158.718
     },
     {
@@ -944,8 +851,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.02174337,
       "n225_index": 105.2874,
-      "qqq_index": 92.0671,
-      "soxx_index": 108.8907,
+      "sp500_index": 94.8002,
       "usd_jpy": 159.384
     },
     {
@@ -954,8 +860,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.02168211,
       "n225_index": 104.8345,
-      "qqq_index": 90.2684,
-      "soxx_index": 107.1126,
+      "sp500_index": 93.215,
       "usd_jpy": 159.704
     },
     {
@@ -964,8 +869,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.02043831,
       "n225_index": 101.9133,
-      "qqq_index": 89.5785,
-      "soxx_index": 102.5795,
+      "sp500_index": 92.8472,
       "usd_jpy": 159.841
     },
     {
@@ -974,8 +878,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.01906278,
       "n225_index": 100.2985,
-      "qqq_index": 92.6111,
-      "soxx_index": 108.8278,
+      "sp500_index": 95.5519,
       "usd_jpy": 158.579
     },
     {
@@ -984,8 +887,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.01872357,
       "n225_index": 105.5545,
-      "qqq_index": 93.7551,
-      "soxx_index": 112.0993,
+      "sp500_index": 96.2369,
       "usd_jpy": 158.688
     },
     {
@@ -994,8 +896,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.01879224,
       "n225_index": 103.0474,
-      "qqq_index": 93.8626,
-      "soxx_index": 112.4536,
+      "sp500_index": 96.3448,
       "usd_jpy": 159.491
     },
     {
@@ -1004,8 +905,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.02005043,
       "n225_index": 104.9142,
-      "qqq_index": 94.4274,
-      "soxx_index": 113.9404,
+      "sp500_index": 96.7713,
       "usd_jpy": 159.683
     },
     {
@@ -1014,8 +914,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.02102303,
       "n225_index": 104.9454,
-      "qqq_index": 94.4419,
-      "soxx_index": 115.1523,
+      "sp500_index": 96.8448,
       "usd_jpy": 158.716
     },
     {
@@ -1024,8 +923,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.05268323,
       "n225_index": 110.6,
-      "qqq_index": 97.2498,
-      "soxx_index": 122.649,
+      "sp500_index": 99.2738,
       "usd_jpy": 158.642
     },
     {
@@ -1034,8 +932,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.052356,
       "n225_index": 109.7886,
-      "qqq_index": 97.9077,
-      "soxx_index": 125.3742,
+      "sp500_index": 99.8863,
       "usd_jpy": 159.112
     },
     {
@@ -1044,8 +941,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.05455265,
       "n225_index": 111.8093,
-      "qqq_index": 98.0489,
-      "soxx_index": 128.0132,
+      "sp500_index": 99.7726,
       "usd_jpy": 159.112
     },
     {
@@ -1054,8 +950,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.05447079,
       "n225_index": 110.9818,
-      "qqq_index": 99.063,
-      "soxx_index": 130.245,
+      "sp500_index": 100.7876,
       "usd_jpy": 159.214
     },
     {
@@ -1064,8 +959,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.05375365,
       "n225_index": 113.6818,
-      "qqq_index": 100.8616,
-      "soxx_index": 132.8609,
+      "sp500_index": 101.9751,
       "usd_jpy": 158.792
     },
     {
@@ -1074,8 +968,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.05324104,
       "n225_index": 114.1863,
-      "qqq_index": 102.2736,
-      "soxx_index": 133.0662,
+      "sp500_index": 102.7885,
       "usd_jpy": 158.809
     },
     {
@@ -1084,8 +977,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.05460997,
       "n225_index": 116.9049,
-      "qqq_index": 102.7662,
-      "soxx_index": 134.4205,
+      "sp500_index": 103.0567,
       "usd_jpy": 159.195
     },
     {
@@ -1094,8 +986,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.05439072,
       "n225_index": 114.8573,
-      "qqq_index": 104.1108,
-      "soxx_index": 137.6523,
+      "sp500_index": 104.2976,
       "usd_jpy": 159.195
     },
     {
@@ -1104,8 +995,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.0575276,
       "n225_index": 115.5428,
-      "qqq_index": 103.7803,
-      "soxx_index": 138.2616,
+      "sp500_index": 104.0499,
       "usd_jpy": 158.844
     },
     {
@@ -1114,8 +1004,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.05734034,
       "n225_index": 116.5726,
-      "qqq_index": 103.3856,
-      "soxx_index": 139.3046,
+      "sp500_index": 103.3894,
       "usd_jpy": 159.373
     },
     {
@@ -1124,8 +1013,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.05732293,
       "n225_index": 117.0375,
-      "qqq_index": 105.1153,
-      "soxx_index": 142.9702,
+      "sp500_index": 104.4709,
       "usd_jpy": 159.488
     },
     {
@@ -1134,8 +1022,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.05666195,
       "n225_index": 116.1622,
-      "qqq_index": 104.5232,
-      "soxx_index": 146.0265,
+      "sp500_index": 104.0391,
       "usd_jpy": 159.747
     },
     {
@@ -1144,8 +1031,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06333294,
       "n225_index": 117.2935,
-      "qqq_index": 106.5225,
-      "soxx_index": 152.8477,
+      "sp500_index": 104.8687,
       "usd_jpy": 159.747
     },
     {
@@ -1154,8 +1040,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06929373,
       "n225_index": 118.9064,
-      "qqq_index": 106.5786,
-      "soxx_index": 150.798,
+      "sp500_index": 104.9979,
       "usd_jpy": 159.357
     },
     {
@@ -1164,8 +1049,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06918077,
       "n225_index": 117.6888,
-      "qqq_index": 105.5068,
-      "soxx_index": 145.2682,
+      "sp500_index": 104.4841,
       "usd_jpy": 159.552
     },
     {
@@ -1174,8 +1058,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07952227,
       "n225_index": 117.6888,
-      "qqq_index": 106.1518,
-      "soxx_index": 149.0033,
+      "sp500_index": 104.4423,
       "usd_jpy": 160.184
     },
     {
@@ -1184,8 +1067,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.08011798,
       "n225_index": 116.4464,
-      "qqq_index": 107.1418,
-      "soxx_index": 152.7947,
+      "sp500_index": 105.5116,
       "usd_jpy": 156.978
     },
     {
@@ -1194,8 +1076,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.08078683,
       "n225_index": 116.8946,
-      "qqq_index": 108.1703,
-      "soxx_index": 154.2219,
+      "sp500_index": 105.8206,
       "usd_jpy": 156.978
     },
     {
@@ -1204,8 +1085,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07880228,
       "n225_index": 116.8946,
-      "qqq_index": 107.9666,
-      "soxx_index": 153.0,
+      "sp500_index": 105.3908,
       "usd_jpy": 157.194
     },
     {
@@ -1214,8 +1094,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07792486,
       "n225_index": 116.8946,
-      "qqq_index": 109.3673,
-      "soxx_index": 159.8444,
+      "sp500_index": 106.2465,
       "usd_jpy": 157.677
     },
     {
@@ -1224,8 +1103,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.08479242,
       "n225_index": 116.8946,
-      "qqq_index": 111.6394,
-      "soxx_index": 167.8377,
+      "sp500_index": 107.7965,
       "usd_jpy": 156.508
     },
     {
@@ -1234,8 +1112,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.0812471,
       "n225_index": 123.4171,
-      "qqq_index": 111.5062,
-      "soxx_index": 163.0331,
+      "sp500_index": 107.3865,
       "usd_jpy": 156.829
     },
     {
@@ -1244,8 +1121,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07572784,
       "n225_index": 123.1811,
-      "qqq_index": 114.12,
-      "soxx_index": 172.2848,
+      "sp500_index": 108.2913,
       "usd_jpy": 156.829
     },
     {
@@ -1254,8 +1130,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07546317,
       "n225_index": 122.6001,
-      "qqq_index": 114.4505,
-      "soxx_index": 176.4106,
+      "sp500_index": 108.4949,
       "usd_jpy": 157.231
     },
     {
@@ -1264,8 +1139,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07237526,
       "n225_index": 123.2379,
-      "qqq_index": 113.4798,
-      "soxx_index": 170.8576,
+      "sp500_index": 108.321,
       "usd_jpy": 157.671
     },
     {
@@ -1274,8 +1148,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07308903,
       "n225_index": 124.278,
-      "qqq_index": 114.6784,
-      "soxx_index": 174.9305,
+      "sp500_index": 108.9546,
       "usd_jpy": 157.851
     },
     {
@@ -1284,8 +1157,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07300151,
       "n225_index": 123.064,
-      "qqq_index": 115.4935,
-      "soxx_index": 175.5066,
+      "sp500_index": 109.7888,
       "usd_jpy": 158.382
     },
     {
@@ -1294,8 +1166,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06690679,
       "n225_index": 120.6191,
-      "qqq_index": 113.7509,
-      "soxx_index": 168.3841,
+      "sp500_index": 108.4314,
       "usd_jpy": 158.382
     },
     {
@@ -1304,8 +1175,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06597999,
       "n225_index": 119.4536,
-      "qqq_index": 113.2616,
-      "soxx_index": 164.1954,
+      "sp500_index": 108.3516,
       "usd_jpy": 158.861
     },
     {
@@ -1314,8 +1184,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06547742,
       "n225_index": 118.9324,
-      "qqq_index": 112.5636,
-      "soxx_index": 164.4834,
+      "sp500_index": 107.628,
       "usd_jpy": 159.035
     },
     {
@@ -1324,8 +1193,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06491648,
       "n225_index": 117.4668,
-      "qqq_index": 114.4281,
-      "soxx_index": 172.2881,
+      "sp500_index": 108.7896,
       "usd_jpy": 158.888
     },
     {
@@ -1334,8 +1202,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06598949,
       "n225_index": 121.1589,
-      "qqq_index": 114.6463,
-      "soxx_index": 173.745,
+      "sp500_index": 108.9762,
       "usd_jpy": 159.018
     },
     {
@@ -1344,8 +1211,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06917535,
       "n225_index": 124.4095,
-      "qqq_index": 115.1325,
-      "soxx_index": 177.9238,
+      "sp500_index": 109.3823,
       "usd_jpy": 159.018
     },
     {
@@ -1354,8 +1220,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06611979,
       "n225_index": 127.6642,
-      "qqq_index": 117.1767,
-      "soxx_index": 188.7715,
+      "sp500_index": 110.0504,
       "usd_jpy": 159.243
     },
     {
@@ -1364,8 +1229,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06935928,
       "n225_index": 127.6707,
-      "qqq_index": 117.0435,
-      "soxx_index": 186.7483,
+      "sp500_index": 110.0686,
       "usd_jpy": 159.568
     },
     {
@@ -1374,8 +1238,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06933224,
       "n225_index": 127.0691,
-      "qqq_index": 118.0303,
-      "soxx_index": 188.5662,
+      "sp500_index": 110.7019,
       "usd_jpy": 159.27
     },
     {
@@ -1384,8 +1247,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06953691,
       "n225_index": 130.2833,
-      "qqq_index": 118.4651,
-      "soxx_index": 188.4371,
+      "sp500_index": 110.9424,
       "usd_jpy": 159.27
     },
     {
@@ -1394,8 +1256,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06976184,
       "n225_index": 131.4712,
-      "qqq_index": 119.1759,
-      "soxx_index": 189.3808,
+      "sp500_index": 111.2336,
       "usd_jpy": 159.636
     },
     {
@@ -1404,8 +1265,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.06962533,
       "n225_index": 131.0782,
-      "qqq_index": 119.7247,
-      "soxx_index": 200.3378,
+      "sp500_index": 111.3774,
       "usd_jpy": 159.968
     },
     {
@@ -1414,8 +1274,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07020401,
       "n225_index": 134.3543,
-      "qqq_index": 119.4118,
-      "soxx_index": 203.8675,
+      "sp500_index": 110.5563,
       "usd_jpy": 159.94
     },
     {
@@ -1424,8 +1283,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.07374901,
       "n225_index": 132.5248,
-      "qqq_index": 118.8341,
-      "soxx_index": 199.5761,
+      "sp500_index": 111.0046,
       "usd_jpy": 159.99
     },
     {
@@ -1434,8 +1292,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.0494633,
       "n225_index": 130.7912,
-      "qqq_index": 113.13,
-      "soxx_index": 178.7318,
+      "sp500_index": 108.069,
       "usd_jpy": 159.99
     },
     {
@@ -1444,8 +1301,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.0509351,
       "n225_index": 125.756,
-      "qqq_index": 114.8966,
-      "soxx_index": 189.2219,
+      "sp500_index": 108.3909,
       "usd_jpy": 160.174
     },
     {
@@ -1454,8 +1310,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.05040257,
       "n225_index": 128.4902,
-      "qqq_index": 113.5744,
-      "soxx_index": 186.1391,
+      "sp500_index": 108.1116,
       "usd_jpy": 160.384
     },
     {
@@ -1464,8 +1319,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.04894632,
       "n225_index": 126.0598,
-      "qqq_index": 111.3056,
-      "soxx_index": 179.308,
+      "sp500_index": 106.3603,
       "usd_jpy": 160.527
     },
     {
@@ -1474,8 +1328,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.04432852,
       "n225_index": 126.1344,
-      "qqq_index": 115.0651,
-      "soxx_index": 194.3477,
+      "sp500_index": 108.2236,
       "usd_jpy": 160.13
     },
     {
@@ -1484,8 +1337,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.04434435,
       "n225_index": 129.6754,
-      "qqq_index": 115.7422,
-      "soxx_index": 197.4338,
+      "sp500_index": 108.7674,
       "usd_jpy": 160.13
     },
     {
@@ -1494,8 +1346,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.04275474,
       "n225_index": 136.1522,
-      "qqq_index": 119.3781,
-      "soxx_index": 208.096,
+      "sp500_index": 110.5652,
       "usd_jpy": 160.229
     },
     {
@@ -1504,8 +1355,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.04125041,
       "n225_index": 136.3231,
-      "qqq_index": 117.1093,
-      "soxx_index": 195.7748,
+      "sp500_index": 109.9367,
       "usd_jpy": 160.419
     },
     {
@@ -1514,8 +1364,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.04109351,
       "n225_index": 137.3008,
-      "qqq_index": 115.9299,
-      "soxx_index": 198.5861,
+      "sp500_index": 108.6012,
       "usd_jpy": 160.6
     },
     {
@@ -1524,8 +1373,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.04029556,
       "n225_index": 139.562,
-      "qqq_index": 118.8357,
-      "soxx_index": 211.7384,
+      "sp500_index": 109.7791,
       "usd_jpy": 161.289
     },
     {
@@ -1534,8 +1382,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.04024596,
       "n225_index": 142.1164,
-      "qqq_index": 118.4073,
-      "soxx_index": 216.8907,
+      "sp500_index": 109.3724,
       "usd_jpy": 161.57
     },
     {
@@ -1544,8 +1391,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.03706945,
       "n225_index": 137.0771,
-      "qqq_index": 114.5083,
-      "soxx_index": 199.798,
+      "sp500_index": 107.8015,
       "usd_jpy": 161.599
     },
     {
@@ -1554,8 +1400,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.03803839,
       "n225_index": 135.8723,
-      "qqq_index": 114.0221,
-      "soxx_index": 199.1722,
+      "sp500_index": 107.6955,
       "usd_jpy": 161.763
     },
     {
@@ -1564,8 +1409,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.03783064,
       "n225_index": 142.1407,
-      "qqq_index": 114.9463,
-      "soxx_index": 207.0199,
+      "sp500_index": 107.6848,
       "usd_jpy": 161.805
     },
     {
@@ -1574,8 +1418,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.03736913,
       "n225_index": 136.2374,
-      "qqq_index": 113.3643,
-      "soxx_index": 195.3444,
+      "sp500_index": 107.634,
       "usd_jpy": 161.805
     },
     {
@@ -1584,8 +1427,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.03614708,
       "n225_index": 136.4481,
-      "qqq_index": 116.1818,
-      "soxx_index": 203.4271,
+      "sp500_index": 108.8987,
       "usd_jpy": 161.923
     },
     {
@@ -1594,8 +1436,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.03560682,
       "n225_index": 137.6152,
-      "qqq_index": 118.1586,
-      "soxx_index": 212.1722,
+      "sp500_index": 109.7612,
       "usd_jpy": 162.628
     },
     {
@@ -1604,8 +1445,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.03522933,
       "n225_index": 138.4257,
-      "qqq_index": 116.3567,
-      "soxx_index": 198.5762,
+      "sp500_index": 109.5252,
       "usd_jpy": 162.539
     },
     {
@@ -1614,8 +1454,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.03460224,
       "n225_index": 135.0045,
-      "qqq_index": 114.3398,
-      "soxx_index": 187.5232,
+      "sp500_index": 109.5253,
       "usd_jpy": 161.449
     },
     {
@@ -1624,8 +1463,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.03425606,
       "n225_index": 136.9776,
-      "qqq_index": 115.9797,
-      "soxx_index": 192.553,
+      "sp500_index": 110.3184,
       "usd_jpy": 162.088
     },
     {
@@ -1634,8 +1472,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.03821367,
       "n225_index": 134.0691,
-      "qqq_index": 113.8312,
-      "soxx_index": 182.6788,
+      "sp500_index": 109.827,
       "usd_jpy": 162.363
     },
     {
@@ -1644,8 +1481,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.03893345,
       "n225_index": 131.2448,
-      "qqq_index": 114.1537,
-      "soxx_index": 186.1027,
+      "sp500_index": 109.5175,
       "usd_jpy": 162.539
     },
     {
@@ -1654,8 +1490,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.03857771,
       "n225_index": 133.0613,
-      "qqq_index": 116.0535,
-      "soxx_index": 192.6159,
+      "sp500_index": 110.4093,
       "usd_jpy": 162.363
     },
     {
@@ -1664,8 +1499,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.03976365,
       "n225_index": 134.6599,
-      "qqq_index": 116.4113,
-      "soxx_index": 192.4967,
+      "sp500_index": 110.874,
       "usd_jpy": 162.363
     },
     {
@@ -1674,8 +1508,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.04173989,
       "n225_index": 132.077,
-      "qqq_index": 114.2018,
-      "soxx_index": 183.3146,
+      "sp500_index": 109.9951,
       "usd_jpy": 162.429
     },
     {
@@ -1684,8 +1517,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.04149991,
       "n225_index": 133.0606,
-      "qqq_index": 115.4774,
-      "soxx_index": 188.053,
+      "sp500_index": 110.4086,
       "usd_jpy": 162.187
     },
     {
@@ -1694,8 +1526,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.04478489,
       "n225_index": 135.0405,
-      "qqq_index": 115.1645,
-      "soxx_index": 183.8642,
+      "sp500_index": 110.8303,
       "usd_jpy": 162.072
     },
     {
@@ -1704,8 +1535,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.04514426,
       "n225_index": 131.2772,
-      "qqq_index": 113.2712,
-      "soxx_index": 175.6623,
+      "sp500_index": 110.2649,
       "usd_jpy": 162.376
     },
     {
@@ -1714,8 +1544,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.04481308,
       "n225_index": 125.9849,
-      "qqq_index": 111.5688,
-      "soxx_index": 172.7848,
+      "sp500_index": 109.1514,
       "usd_jpy": 162.376
     },
     {
@@ -1724,8 +1553,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.0481612,
       "n225_index": 125.9849,
-      "qqq_index": 111.6859,
-      "soxx_index": 173.5563,
+      "sp500_index": 108.9404,
       "usd_jpy": 162.487
     },
     {
@@ -1734,8 +1562,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.04598369,
       "n225_index": 130.0921,
-      "qqq_index": 113.7574,
-      "soxx_index": 183.0099,
+      "sp500_index": 109.9053,
       "usd_jpy": 163.186
     },
     {
@@ -1744,8 +1571,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.05112258,
       "n225_index": 129.8631,
-      "qqq_index": 113.1765,
-      "soxx_index": 183.947,
+      "sp500_index": 109.7554,
       "usd_jpy": 163.081
     },
     {
@@ -1754,8 +1580,7 @@
       "japan_risk_contribution": 0.8,
       "us_risk_contribution": 0.04972333,
       "n225_index": 130.4661,
-      "qqq_index": 111.028,
-      "soxx_index": 182.5298,
+      "sp500_index": 108.4285,
       "usd_jpy": 163.832
     },
     {
@@ -1764,8 +1589,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.04973308,
       "n225_index": 126.9081,
-      "qqq_index": 109.7877,
-      "soxx_index": 174.5066,
+      "sp500_index": 108.4823,
       "usd_jpy": 163.832
     },
     {
@@ -1774,8 +1598,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.05078384,
       "n225_index": 127.5367,
-      "qqq_index": 109.4492,
-      "soxx_index": 170.9371,
+      "sp500_index": 108.4999,
       "usd_jpy": 163.771
     },
     {
@@ -1784,8 +1607,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.05448087,
       "n225_index": 122.4961,
-      "qqq_index": 108.3853,
-      "soxx_index": 162.7351,
+      "sp500_index": 108.7282,
       "usd_jpy": 163.864
     },
     {
@@ -1794,8 +1616,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.05603688,
       "n225_index": 120.668,
-      "qqq_index": 106.1775,
-      "soxx_index": 153.9735,
+      "sp500_index": 107.0798,
       "usd_jpy": 163.3
     },
     {
@@ -1804,8 +1625,7 @@
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.04813077,
       "n225_index": 121.5189,
-      "qqq_index": 109.6786,
-      "soxx_index": 167.0629,
+      "sp500_index": 108.8578,
       "usd_jpy": 163.3
     }
   ]
