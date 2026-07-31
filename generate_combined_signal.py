@@ -288,11 +288,11 @@ def render_html(payload: dict) -> str:
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>日米統合ポートフォリオ・シグナル</title>
 <style>
-:root{{--ink:#122033;--muted:#64748b;--line:#dbe3eb;--navy:#102a43;--blue:#147d92;--green:#087f5b;--red:#c92a2a}}
-*{{box-sizing:border-box}}body{{margin:0;background:#f3f6f8;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif}}
-main{{max-width:1120px;margin:auto;padding:28px 20px 60px}}header{{padding:32px;border-radius:20px;color:white;background:linear-gradient(135deg,var(--navy),var(--blue))}}
-h1{{margin:0 0 8px;font-size:32px}}header p{{margin:0;color:#d9edf2}}.grid{{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0}}
-.card{{background:white;border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 8px 25px rgba(16,42,67,.06)}}.wide{{grid-column:span 4}}
+:root{{--ink:#26343c;--muted:#6b7780;--line:#dfe4e7;--green:#516c61;--red:#7c5a58}}
+*{{box-sizing:border-box}}body{{margin:0;background:#fff;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif}}
+main{{max-width:1080px;margin:auto;padding:34px 20px 60px}}header{{padding:24px 0;border-bottom:1px solid var(--line);color:var(--ink);background:#fff}}
+h1{{margin:0 0 8px;font-size:26px;font-weight:600}}header p{{margin:0;color:var(--muted)}}.grid{{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:18px 0}}
+.card{{background:white;border:1px solid var(--line);border-radius:4px;padding:18px;box-shadow:none}}.wide{{grid-column:span 4}}
 .metric small{{display:block;color:var(--muted);margin-bottom:5px}}.metric strong{{font-size:24px}}.scroll{{overflow:auto}}
 table{{width:100%;border-collapse:collapse;font-size:14px}}th,td{{padding:11px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}}
 th:first-child,td:first-child,th:nth-child(2),td:nth-child(2),th:nth-child(3),td:nth-child(3),th:nth-child(4),td:nth-child(4){{text-align:left}}
