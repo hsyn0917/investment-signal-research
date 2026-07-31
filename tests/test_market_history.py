@@ -28,7 +28,7 @@ class MarketHistoryTests(unittest.TestCase):
             "us_letf_sleeve": 0.2,
         }
 
-    def test_history_is_normalized_and_bounded(self):
+    def test_history_has_absolute_prices_and_bounded_risk(self):
         payload = build_market_history(
             self.series,
             self.config,
@@ -37,10 +37,11 @@ class MarketHistoryTests(unittest.TestCase):
         )
         self.assertEqual(payload["observation_count"], 90)
         first = payload["points"][0]
-        self.assertEqual(first["n225_index"], 100)
-        self.assertEqual(first["sp500_index"], 100)
-        self.assertEqual(first["tqqq_index"], 100)
-        self.assertEqual(first["spxl_index"], 100)
+        self.assertGreater(first["n225_close"], 0)
+        self.assertGreater(first["sp500_close"], 0)
+        self.assertGreater(first["tqqq_close"], 0)
+        self.assertGreater(first["spxl_close"], 0)
+        self.assertNotEqual(first["n225_close"], 100)
         for point in payload["points"]:
             self.assertGreaterEqual(point["risk_asset_weight"], 0)
             self.assertLessEqual(point["risk_asset_weight"], 1)

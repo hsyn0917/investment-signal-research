@@ -135,8 +135,8 @@ def build_market_history(
                 "us_risk_contribution": us_risk,
                 "n225_close": n225_point.close,
                 "sp500_close": sp500_latest[1].close,
-                "tqqq_close": lookup_by_ticker["TQQQ"][day].adjusted_close,
-                "spxl_close": spxl_latest[1].adjusted_close,
+                "tqqq_close": lookup_by_ticker["TQQQ"][day].close,
+                "spxl_close": spxl_latest[1].close,
                 "usd_jpy": fx_latest[1].close,
             }
         )
@@ -144,12 +144,6 @@ def build_market_history(
     rows = raw_rows[-observations:]
     if len(rows) < min(30, observations):
         raise RuntimeError("グラフ作成に必要な履歴が不足しています")
-    bases = {
-        "n225_close": rows[0]["n225_close"],
-        "sp500_close": rows[0]["sp500_close"],
-        "tqqq_close": rows[0]["tqqq_close"],
-        "spxl_close": rows[0]["spxl_close"],
-    }
     output_rows = []
     for row in rows:
         output_rows.append(
@@ -160,16 +154,10 @@ def build_market_history(
                     row["japan_risk_contribution"], 8
                 ),
                 "us_risk_contribution": round(row["us_risk_contribution"], 8),
-                "n225_index": round(row["n225_close"] / bases["n225_close"] * 100, 4),
-                "sp500_index": round(
-                    row["sp500_close"] / bases["sp500_close"] * 100, 4
-                ),
-                "tqqq_index": round(
-                    row["tqqq_close"] / bases["tqqq_close"] * 100, 4
-                ),
-                "spxl_index": round(
-                    row["spxl_close"] / bases["spxl_close"] * 100, 4
-                ),
+                "n225_close": round(row["n225_close"], 4),
+                "sp500_close": round(row["sp500_close"], 4),
+                "tqqq_close": round(row["tqqq_close"], 4),
+                "spxl_close": round(row["spxl_close"], 4),
                 "usd_jpy": round(row["usd_jpy"], 4),
             }
         )
@@ -180,7 +168,7 @@ def build_market_history(
         "observation_count": len(output_rows),
         "method": {
             "risk_allocation": "日本株60日レジーム + 米国200日トレンド・20日ボラ調整",
-            "market_indices": "表示期間の初日を100として指数化",
+            "market_prices": "各資産の終値（絶対値）",
             "fx": "USD/JPY終値",
         },
         "points": output_rows,
