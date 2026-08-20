@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-08-20T07:40:01+09:00",
+  "generated_at_jst": "2026-08-21T07:44:20+09:00",
   "status": "STALE",
   "source_dates": {
     "japan": "2026-07-29",
-    "us": "2026-08-19"
+    "us": "2026-08-20"
   },
   "source_signal_ages_calendar_days": {
-    "japan": 22,
+    "japan": 23,
     "us": 1
   },
   "capital_sleeves": {
@@ -20,8 +20,8 @@
     "us": "RISK_ON"
   },
   "summary": {
-    "risk_asset_weight": 0.4500512879,
-    "defensive_asset_weight": 0.5499487121,
+    "risk_asset_weight": 0.4514870599,
+    "defensive_asset_weight": 0.5485129401,
     "target_weight_total": 0.9999999999
   },
   "instructions": [
@@ -141,19 +141,9 @@
       "name": "TQQQ（レバレッジETF）",
       "currency": "USD",
       "action": "維持",
-      "previous_weight": 0.0350974587,
-      "target_weight": 0.03520148,
-      "change_percentage_points": 0.010402
-    },
-    {
-      "market": "米国",
-      "asset": "SOXL",
-      "name": "SOXL（レバレッジETF）",
-      "currency": "USD",
-      "action": "維持",
-      "previous_weight": 0.0149487502,
-      "target_weight": 0.014849808,
-      "change_percentage_points": -0.009894
+      "previous_weight": 0.0352014799,
+      "target_weight": 0.03664544,
+      "change_percentage_points": 0.144396
     },
     {
       "market": "米国",
@@ -161,13 +151,23 @@
       "name": "BIL（米ドル待機資金）",
       "currency": "USD",
       "action": "維持",
-      "previous_weight": 0.1499537911,
-      "target_weight": 0.149948712,
-      "change_percentage_points": -0.000508
+      "previous_weight": 0.1499487127,
+      "target_weight": 0.14851294,
+      "change_percentage_points": -0.143577
+    },
+    {
+      "market": "米国",
+      "asset": "SOXL",
+      "name": "SOXL（レバレッジETF）",
+      "currency": "USD",
+      "action": "維持",
+      "previous_weight": 0.0148498074,
+      "target_weight": 0.01484162,
+      "change_percentage_points": -0.000819
     }
   ],
   "warnings": [
-    "日本株シグナルが22日古いため更新が必要です"
+    "日本株シグナルが23日古いため更新が必要です"
   ],
   "execution_policy": "SIGNAL_ONLY_NO_BROKER_ORDERS",
   "method": {
