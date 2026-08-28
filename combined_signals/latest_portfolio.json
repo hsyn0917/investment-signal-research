@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-08-27T12:17:42+09:00",
+  "generated_at_jst": "2026-08-28T15:06:22+09:00",
   "status": "STALE",
   "source_dates": {
     "japan": "2026-07-29",
-    "us": "2026-08-26"
+    "us": "2026-08-27"
   },
   "source_signal_ages_calendar_days": {
-    "japan": 29,
+    "japan": 30,
     "us": 1
   },
   "capital_sleeves": {
@@ -20,9 +20,9 @@
     "us": "RISK_ON"
   },
   "summary": {
-    "risk_asset_weight": 0.4583700659,
-    "defensive_asset_weight": 0.5416299341,
-    "target_weight_total": 0.9999999999
+    "risk_asset_weight": 0.4684818339,
+    "defensive_asset_weight": 0.5315181661,
+    "target_weight_total": 0.9999999979
   },
   "instructions": [
     {
@@ -41,9 +41,9 @@
       "name": "BIL（米ドル待機資金）",
       "currency": "USD",
       "action": "一部売却",
-      "previous_weight": 0.1462986942,
-      "target_weight": 0.141629934,
-      "change_percentage_points": -0.466876
+      "previous_weight": 0.1416299346,
+      "target_weight": 0.131518164,
+      "change_percentage_points": -1.011177
     },
     {
       "market": "日本",
@@ -151,23 +151,23 @@
       "name": "TQQQ（レバレッジETF）",
       "currency": "USD",
       "action": "買い増し",
-      "previous_weight": 0.0375040359,
-      "target_weight": 0.040658766,
-      "change_percentage_points": 0.315473
+      "previous_weight": 0.0406587664,
+      "target_weight": 0.046363602,
+      "change_percentage_points": 0.570484
     },
     {
       "market": "米国",
       "asset": "SOXL",
       "name": "SOXL（レバレッジETF）",
       "currency": "USD",
-      "action": "維持",
-      "previous_weight": 0.0161972698,
-      "target_weight": 0.0177113,
-      "change_percentage_points": 0.151403
+      "action": "買い増し",
+      "previous_weight": 0.0177112991,
+      "target_weight": 0.022118232,
+      "change_percentage_points": 0.440693
     }
   ],
   "warnings": [
-    "日本株シグナルが29日古いため更新が必要です"
+    "日本株シグナルが30日古いため更新が必要です"
   ],
   "execution_policy": "SIGNAL_ONLY_NO_BROKER_ORDERS",
   "method": {
