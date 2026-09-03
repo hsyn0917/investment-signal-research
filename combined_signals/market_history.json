@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-09-02T09:12:45+09:00",
+  "generated_at_jst": "2026-09-03T09:14:29+09:00",
   "observation_count": 180,
   "method": {
     "risk_allocation": "日本株60日レジーム + 米国200日トレンド・20日ボラ調整",
@@ -1982,11 +1982,11 @@
       "risk_asset_weight": 0.49052801,
       "japan_risk_contribution": 0.4,
       "us_risk_contribution": 0.09052801,
-      "n225_close": 66311.9297,
+      "n225_close": 66215.3438,
       "sp500_close": 7631.4702,
       "tqqq_close": 69.15,
       "spxl_close": 281.35,
-      "usd_jpy": 159.747
+      "usd_jpy": 160.196
     }
   ]
 }
