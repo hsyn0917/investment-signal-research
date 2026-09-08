@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-09-04T09:05:19+09:00",
+  "generated_at_jst": "2026-09-08T09:24:26+09:00",
   "observation_count": 180,
   "method": {
     "risk_allocation": "日本株60日レジーム + 米国200日トレンド・20日ボラ調整",
@@ -8,28 +8,6 @@
     "fx": "USD/JPY終値"
   },
   "points": [
-    {
-      "date": "2025-12-15",
-      "risk_asset_weight": 0.87151616,
-      "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07151616,
-      "n225_close": 50168.1094,
-      "sp500_close": 6816.5098,
-      "tqqq_close": 52.02,
-      "spxl_close": 219.06,
-      "usd_jpy": 155.888
-    },
-    {
-      "date": "2025-12-16",
-      "risk_asset_weight": 0.87274573,
-      "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07274573,
-      "n225_close": 49383.2891,
-      "sp500_close": 6800.2598,
-      "tqqq_close": 52.33,
-      "spxl_close": 217.11,
-      "usd_jpy": 155.015
-    },
     {
       "date": "2025-12-17",
       "risk_asset_weight": 0.86947362,
@@ -1987,6 +1965,28 @@
       "tqqq_close": 69.6,
       "spxl_close": 285.07,
       "usd_jpy": 158.923
+    },
+    {
+      "date": "2026-09-03",
+      "risk_asset_weight": 0.48901965,
+      "japan_risk_contribution": 0.4,
+      "us_risk_contribution": 0.08901965,
+      "n225_close": 64214.4805,
+      "sp500_close": 7747.71,
+      "tqqq_close": 72.03,
+      "spxl_close": 293.85,
+      "usd_jpy": 155.66
+    },
+    {
+      "date": "2026-09-04",
+      "risk_asset_weight": 0.49088777,
+      "japan_risk_contribution": 0.4,
+      "us_risk_contribution": 0.09088777,
+      "n225_close": 65020.9414,
+      "sp500_close": 7718.6001,
+      "tqqq_close": 72.37,
+      "spxl_close": 290.29,
+      "usd_jpy": 155.66
     }
   ]
 }
