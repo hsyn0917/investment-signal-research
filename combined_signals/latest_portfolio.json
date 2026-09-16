@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-09-15T09:37:17+09:00",
+  "generated_at_jst": "2026-09-16T09:18:24+09:00",
   "status": "STALE",
   "source_dates": {
     "japan": "2026-07-29",
-    "us": "2026-09-11"
+    "us": "2026-09-14"
   },
   "source_signal_ages_calendar_days": {
-    "japan": 48,
-    "us": 4
+    "japan": 49,
+    "us": 2
   },
   "capital_sleeves": {
     "japan": 0.8,
@@ -20,8 +20,8 @@
     "us": "RISK_ON"
   },
   "summary": {
-    "risk_asset_weight": 0.4914889859,
-    "defensive_asset_weight": 0.5085110141,
+    "risk_asset_weight": 0.4868576179,
+    "defensive_asset_weight": 0.5131423821,
     "target_weight_total": 0.9999999999
   },
   "instructions": [
@@ -34,6 +34,16 @@
       "previous_weight": 0.8,
       "target_weight": 0.4,
       "change_percentage_points": -40.0
+    },
+    {
+      "market": "米国",
+      "asset": "SOXL",
+      "name": "SOXL（レバレッジETF）",
+      "currency": "USD",
+      "action": "一部売却",
+      "previous_weight": 0.025335258,
+      "target_weight": 0.0218665,
+      "change_percentage_points": -0.346876
     },
     {
       "market": "日本",
@@ -137,38 +147,28 @@
     },
     {
       "market": "米国",
+      "asset": "BIL",
+      "name": "BIL（米ドル待機資金）",
+      "currency": "USD",
+      "action": "買い増し",
+      "previous_weight": 0.1085110147,
+      "target_weight": 0.113142382,
+      "change_percentage_points": 0.463137
+    },
+    {
+      "market": "米国",
       "asset": "TQQQ",
       "name": "TQQQ（レバレッジETF）",
       "currency": "USD",
       "action": "維持",
-      "previous_weight": 0.0644477031,
-      "target_weight": 0.066153728,
-      "change_percentage_points": 0.170602
-    },
-    {
-      "market": "米国",
-      "asset": "BIL",
-      "name": "BIL（米ドル待機資金）",
-      "currency": "USD",
-      "action": "維持",
-      "previous_weight": 0.1097397433,
-      "target_weight": 0.108511014,
-      "change_percentage_points": -0.122873
-    },
-    {
-      "market": "米国",
-      "asset": "SOXL",
-      "name": "SOXL（レバレッジETF）",
-      "currency": "USD",
-      "action": "維持",
-      "previous_weight": 0.0258125536,
-      "target_weight": 0.025335258,
-      "change_percentage_points": -0.04773
+      "previous_weight": 0.0661537273,
+      "target_weight": 0.064991118,
+      "change_percentage_points": -0.116261
     }
   ],
   "warnings": [
-    "最終価格は4日前です。週末・米国休場日か確認してください。",
-    "日本株シグナルが48日古いため更新が必要です",
+    "最終価格は2日前です。週末・米国休場日か確認してください。",
+    "日本株シグナルが49日古いため更新が必要です",
     "米国シグナル状態: WARNING"
   ],
   "execution_policy": "SIGNAL_ONLY_NO_BROKER_ORDERS",
