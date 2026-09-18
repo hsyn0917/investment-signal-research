@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-09-17T09:30:55+09:00",
+  "generated_at_jst": "2026-09-18T09:17:09+09:00",
   "status": "STALE",
   "source_dates": {
     "japan": "2026-07-29",
-    "us": "2026-09-15"
+    "us": "2026-09-16"
   },
   "source_signal_ages_calendar_days": {
-    "japan": 50,
+    "japan": 51,
     "us": 2
   },
   "capital_sleeves": {
@@ -20,9 +20,9 @@
     "us": "RISK_ON"
   },
   "summary": {
-    "risk_asset_weight": 0.4865907519,
-    "defensive_asset_weight": 0.5134092481,
-    "target_weight_total": 0.9999999999
+    "risk_asset_weight": 0.4959616099,
+    "defensive_asset_weight": 0.5040383901,
+    "target_weight_total": 1.0000000019
   },
   "instructions": [
     {
@@ -34,6 +34,16 @@
       "previous_weight": 0.8,
       "target_weight": 0.4,
       "change_percentage_points": -40.0
+    },
+    {
+      "market": "米国",
+      "asset": "BIL",
+      "name": "BIL（米ドル待機資金）",
+      "currency": "USD",
+      "action": "一部売却",
+      "previous_weight": 0.1134092476,
+      "target_weight": 0.104038392,
+      "change_percentage_points": -0.937086
     },
     {
       "market": "日本",
@@ -140,35 +150,25 @@
       "asset": "TQQQ",
       "name": "TQQQ（レバレッジETF）",
       "currency": "USD",
-      "action": "維持",
-      "previous_weight": 0.0649911182,
-      "target_weight": 0.06438315,
-      "change_percentage_points": -0.060797
+      "action": "買い増し",
+      "previous_weight": 0.0643831509,
+      "target_weight": 0.071399538,
+      "change_percentage_points": 0.701639
     },
     {
       "market": "米国",
       "asset": "SOXL",
       "name": "SOXL（レバレッジETF）",
       "currency": "USD",
-      "action": "維持",
-      "previous_weight": 0.0218665005,
-      "target_weight": 0.022207602,
-      "change_percentage_points": 0.03411
-    },
-    {
-      "market": "米国",
-      "asset": "BIL",
-      "name": "BIL（米ドル待機資金）",
-      "currency": "USD",
-      "action": "維持",
-      "previous_weight": 0.1131423812,
-      "target_weight": 0.113409248,
-      "change_percentage_points": 0.026687
+      "action": "買い増し",
+      "previous_weight": 0.0222076015,
+      "target_weight": 0.024562072,
+      "change_percentage_points": 0.235447
     }
   ],
   "warnings": [
     "最終価格は2日前です。週末・米国休場日か確認してください。",
-    "日本株シグナルが50日古いため更新が必要です",
+    "日本株シグナルが51日古いため更新が必要です",
     "米国シグナル状態: WARNING"
   ],
   "execution_policy": "SIGNAL_ONLY_NO_BROKER_ORDERS",
