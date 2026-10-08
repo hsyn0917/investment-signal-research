@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-10-07T10:31:27+09:00",
+  "generated_at_jst": "2026-10-08T10:54:49+09:00",
   "status": "STALE",
   "source_dates": {
     "japan": "2026-07-29",
-    "us": "2026-10-06"
+    "us": "2026-10-07"
   },
   "source_signal_ages_calendar_days": {
-    "japan": 70,
+    "japan": 71,
     "us": 1
   },
   "capital_sleeves": {
@@ -20,8 +20,8 @@
     "us": "RISK_ON"
   },
   "summary": {
-    "risk_asset_weight": 0.4770813259,
-    "defensive_asset_weight": 0.5229186741,
+    "risk_asset_weight": 0.4768520779,
+    "defensive_asset_weight": 0.5231479221,
     "target_weight_total": 0.9999999999
   },
   "instructions": [
@@ -137,13 +137,23 @@
     },
     {
       "market": "米国",
+      "asset": "SOXL",
+      "name": "SOXL（レバレッジETF）",
+      "currency": "USD",
+      "action": "維持",
+      "previous_weight": 0.0228582575,
+      "target_weight": 0.02257527,
+      "change_percentage_points": -0.028299
+    },
+    {
+      "market": "米国",
       "asset": "BIL",
       "name": "BIL（米ドル待機資金）",
       "currency": "USD",
       "action": "維持",
-      "previous_weight": 0.1231536355,
-      "target_weight": 0.122918674,
-      "change_percentage_points": -0.023496
+      "previous_weight": 0.1229186747,
+      "target_weight": 0.123147922,
+      "change_percentage_points": 0.022925
     },
     {
       "market": "米国",
@@ -151,23 +161,13 @@
       "name": "TQQQ（レバレッジETF）",
       "currency": "USD",
       "action": "維持",
-      "previous_weight": 0.0540837526,
-      "target_weight": 0.054223068,
-      "change_percentage_points": 0.013932
-    },
-    {
-      "market": "米国",
-      "asset": "SOXL",
-      "name": "SOXL（レバレッジETF）",
-      "currency": "USD",
-      "action": "維持",
-      "previous_weight": 0.0227626119,
-      "target_weight": 0.022858258,
-      "change_percentage_points": 0.009565
+      "previous_weight": 0.0542230678,
+      "target_weight": 0.054276808,
+      "change_percentage_points": 0.005374
     }
   ],
   "warnings": [
-    "日本株シグナルが70日古いため更新が必要です"
+    "日本株シグナルが71日古いため更新が必要です"
   ],
   "execution_policy": "SIGNAL_ONLY_NO_BROKER_ORDERS",
   "method": {
