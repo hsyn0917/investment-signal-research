@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-10-08T10:54:50+09:00",
+  "generated_at_jst": "2026-10-09T11:08:56+09:00",
   "observation_count": 180,
   "method": {
     "risk_allocation": "日本株60日レジーム + 米国200日トレンド・20日ボラ調整",
@@ -8,17 +8,6 @@
     "fx": "USD/JPY終値"
   },
   "points": [
-    {
-      "date": "2026-01-21",
-      "risk_asset_weight": 0.89838218,
-      "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.09838218,
-      "n225_close": 52774.6406,
-      "sp500_close": 6875.6201,
-      "tqqq_close": 52.73,
-      "spxl_close": 222.14,
-      "usd_jpy": 158.162
-    },
     {
       "date": "2026-01-22",
       "risk_asset_weight": 0.8973945,
@@ -1986,7 +1975,18 @@
       "sp500_close": 7801.77,
       "tqqq_close": 83.62,
       "spxl_close": 296.91,
-      "usd_jpy": 158.296
+      "usd_jpy": 158.06
+    },
+    {
+      "date": "2026-10-08",
+      "risk_asset_weight": 0.87513556,
+      "japan_risk_contribution": 0.8,
+      "us_risk_contribution": 0.07513556,
+      "n225_close": 69042.1094,
+      "sp500_close": 7765.3599,
+      "tqqq_close": 80.23,
+      "spxl_close": 293.05,
+      "usd_jpy": 158.06
     }
   ]
 }
