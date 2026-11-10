@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-11-06T11:24:22+09:00",
+  "generated_at_jst": "2026-11-10T13:05:44+09:00",
   "status": "STALE",
   "source_dates": {
     "japan": "2026-07-29",
-    "us": "2026-11-05"
+    "us": "2026-11-09"
   },
   "source_signal_ages_calendar_days": {
-    "japan": 100,
+    "japan": 104,
     "us": 1
   },
   "capital_sleeves": {
@@ -25,26 +25,6 @@
     "target_weight_total": 0.9999999999
   },
   "instructions": [
-    {
-      "market": "米国",
-      "asset": "TQQQ",
-      "name": "TQQQ（レバレッジETF）",
-      "currency": "USD",
-      "action": "全売却",
-      "previous_weight": 0.036245347,
-      "target_weight": 0.0,
-      "change_percentage_points": -3.624535
-    },
-    {
-      "market": "米国",
-      "asset": "SOXL",
-      "name": "SOXL（レバレッジETF）",
-      "currency": "USD",
-      "action": "全売却",
-      "previous_weight": 0.0158676026,
-      "target_weight": 0.0,
-      "change_percentage_points": -1.58676
-    },
     {
       "market": "日本",
       "asset": "JPY_CASH",
@@ -157,17 +137,37 @@
     },
     {
       "market": "米国",
+      "asset": "TQQQ",
+      "name": "TQQQ（レバレッジETF）",
+      "currency": "USD",
+      "action": "維持",
+      "previous_weight": 0.0,
+      "target_weight": 0.0,
+      "change_percentage_points": 0.0
+    },
+    {
+      "market": "米国",
+      "asset": "SOXL",
+      "name": "SOXL（レバレッジETF）",
+      "currency": "USD",
+      "action": "維持",
+      "previous_weight": 0.0,
+      "target_weight": 0.0,
+      "change_percentage_points": 0.0
+    },
+    {
+      "market": "米国",
       "asset": "BIL",
       "name": "BIL（米ドル待機資金）",
       "currency": "USD",
-      "action": "買い増し",
-      "previous_weight": 0.1478870504,
+      "action": "維持",
+      "previous_weight": 0.2,
       "target_weight": 0.2,
-      "change_percentage_points": 5.211295
+      "change_percentage_points": 0.0
     }
   ],
   "warnings": [
-    "日本株シグナルが100日古いため更新が必要です"
+    "日本株シグナルが104日古いため更新が必要です"
   ],
   "execution_policy": "SIGNAL_ONLY_NO_BROKER_ORDERS",
   "method": {
