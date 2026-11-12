@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-11-11T10:55:18+09:00",
+  "generated_at_jst": "2026-11-12T11:57:22+09:00",
   "status": "STALE",
   "source_dates": {
     "japan": "2026-07-29",
-    "us": "2026-11-10"
+    "us": "2026-11-11"
   },
   "source_signal_ages_calendar_days": {
-    "japan": 105,
+    "japan": 106,
     "us": 1
   },
   "capital_sleeves": {
@@ -17,11 +17,11 @@
   "regimes": {
     "japan": "リスク抑制",
     "japan_exposure_within_sleeve": 0.5,
-    "us": "RISK_OFF"
+    "us": "MIXED"
   },
   "summary": {
-    "risk_asset_weight": 0.3999999999,
-    "defensive_asset_weight": 0.6000000001,
+    "risk_asset_weight": 0.4235532959,
+    "defensive_asset_weight": 0.5764467041,
     "target_weight_total": 0.9999999999
   },
   "instructions": [
@@ -34,6 +34,16 @@
       "previous_weight": 0.8,
       "target_weight": 0.4,
       "change_percentage_points": -40.0
+    },
+    {
+      "market": "米国",
+      "asset": "BIL",
+      "name": "BIL（米ドル待機資金）",
+      "currency": "USD",
+      "action": "一部売却",
+      "previous_weight": 0.2,
+      "target_weight": 0.176446704,
+      "change_percentage_points": -2.35533
     },
     {
       "market": "日本",
@@ -116,6 +126,16 @@
       "change_percentage_points": 2.932623
     },
     {
+      "market": "米国",
+      "asset": "TQQQ",
+      "name": "TQQQ（レバレッジETF）",
+      "currency": "USD",
+      "action": "新規買い",
+      "previous_weight": 0.0,
+      "target_weight": 0.023553296,
+      "change_percentage_points": 2.35533
+    },
+    {
       "market": "日本",
       "asset": "3697.T",
       "name": "SHIFT",
@@ -137,16 +157,6 @@
     },
     {
       "market": "米国",
-      "asset": "TQQQ",
-      "name": "TQQQ（レバレッジETF）",
-      "currency": "USD",
-      "action": "維持",
-      "previous_weight": 0.0,
-      "target_weight": 0.0,
-      "change_percentage_points": 0.0
-    },
-    {
-      "market": "米国",
       "asset": "SOXL",
       "name": "SOXL（レバレッジETF）",
       "currency": "USD",
@@ -154,20 +164,10 @@
       "previous_weight": 0.0,
       "target_weight": 0.0,
       "change_percentage_points": 0.0
-    },
-    {
-      "market": "米国",
-      "asset": "BIL",
-      "name": "BIL（米ドル待機資金）",
-      "currency": "USD",
-      "action": "維持",
-      "previous_weight": 0.2,
-      "target_weight": 0.2,
-      "change_percentage_points": 0.0
     }
   ],
   "warnings": [
-    "日本株シグナルが105日古いため更新が必要です"
+    "日本株シグナルが106日古いため更新が必要です"
   ],
   "execution_policy": "SIGNAL_ONLY_NO_BROKER_ORDERS",
   "method": {
