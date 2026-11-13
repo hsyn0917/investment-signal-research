@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-11-12T11:57:22+09:00",
+  "generated_at_jst": "2026-11-13T11:37:07+09:00",
   "status": "STALE",
   "source_dates": {
     "japan": "2026-07-29",
-    "us": "2026-11-11"
+    "us": "2026-11-12"
   },
   "source_signal_ages_calendar_days": {
-    "japan": 106,
+    "japan": 107,
     "us": 1
   },
   "capital_sleeves": {
@@ -20,8 +20,8 @@
     "us": "MIXED"
   },
   "summary": {
-    "risk_asset_weight": 0.4235532959,
-    "defensive_asset_weight": 0.5764467041,
+    "risk_asset_weight": 0.4235552819,
+    "defensive_asset_weight": 0.5764447181,
     "target_weight_total": 0.9999999999
   },
   "instructions": [
@@ -34,16 +34,6 @@
       "previous_weight": 0.8,
       "target_weight": 0.4,
       "change_percentage_points": -40.0
-    },
-    {
-      "market": "米国",
-      "asset": "BIL",
-      "name": "BIL（米ドル待機資金）",
-      "currency": "USD",
-      "action": "一部売却",
-      "previous_weight": 0.2,
-      "target_weight": 0.176446704,
-      "change_percentage_points": -2.35533
     },
     {
       "market": "日本",
@@ -126,16 +116,6 @@
       "change_percentage_points": 2.932623
     },
     {
-      "market": "米国",
-      "asset": "TQQQ",
-      "name": "TQQQ（レバレッジETF）",
-      "currency": "USD",
-      "action": "新規買い",
-      "previous_weight": 0.0,
-      "target_weight": 0.023553296,
-      "change_percentage_points": 2.35533
-    },
-    {
       "market": "日本",
       "asset": "3697.T",
       "name": "SHIFT",
@@ -157,6 +137,26 @@
     },
     {
       "market": "米国",
+      "asset": "TQQQ",
+      "name": "TQQQ（レバレッジETF）",
+      "currency": "USD",
+      "action": "維持",
+      "previous_weight": 0.023553296,
+      "target_weight": 0.023555282,
+      "change_percentage_points": 0.000199
+    },
+    {
+      "market": "米国",
+      "asset": "BIL",
+      "name": "BIL（米ドル待機資金）",
+      "currency": "USD",
+      "action": "維持",
+      "previous_weight": 0.176446704,
+      "target_weight": 0.176444718,
+      "change_percentage_points": -0.000199
+    },
+    {
+      "market": "米国",
       "asset": "SOXL",
       "name": "SOXL（レバレッジETF）",
       "currency": "USD",
@@ -167,7 +167,7 @@
     }
   ],
   "warnings": [
-    "日本株シグナルが106日古いため更新が必要です"
+    "日本株シグナルが107日古いため更新が必要です"
   ],
   "execution_policy": "SIGNAL_ONLY_NO_BROKER_ORDERS",
   "method": {
