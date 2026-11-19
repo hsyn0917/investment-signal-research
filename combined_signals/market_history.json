@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-11-18T12:42:23+09:00",
+  "generated_at_jst": "2026-11-19T12:24:24+09:00",
   "observation_count": 180,
   "method": {
     "risk_allocation": "日本株60日レジーム + 米国200日トレンド・20日ボラ調整",
@@ -9,21 +9,10 @@
   },
   "points": [
     {
-      "date": "2026-03-04",
-      "risk_asset_weight": 0.8676491,
-      "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.0676491,
-      "n225_close": 54245.5391,
-      "sp500_close": 6869.5,
-      "tqqq_close": 50.26,
-      "spxl_close": 218.35,
-      "usd_jpy": 157.773
-    },
-    {
       "date": "2026-03-05",
-      "risk_asset_weight": 0.87267326,
+      "risk_asset_weight": 0.87267331,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07267326,
+      "us_risk_contribution": 0.07267331,
       "n225_close": 55278.0586,
       "sp500_close": 6830.71,
       "tqqq_close": 49.8,
@@ -32,9 +21,9 @@
     },
     {
       "date": "2026-03-06",
-      "risk_asset_weight": 0.87029861,
+      "risk_asset_weight": 0.87029864,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07029861,
+      "us_risk_contribution": 0.07029864,
       "n225_close": 55620.8398,
       "sp500_close": 6740.02,
       "tqqq_close": 47.54,
@@ -54,9 +43,9 @@
     },
     {
       "date": "2026-03-10",
-      "risk_asset_weight": 0.87596178,
+      "risk_asset_weight": 0.87596179,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07596178,
+      "us_risk_contribution": 0.07596179,
       "n225_close": 54248.3906,
       "sp500_close": 6781.48,
       "tqqq_close": 49.4,
@@ -65,9 +54,9 @@
     },
     {
       "date": "2026-03-11",
-      "risk_asset_weight": 0.87604934,
+      "risk_asset_weight": 0.87604935,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07604934,
+      "us_risk_contribution": 0.07604935,
       "n225_close": 55025.3711,
       "sp500_close": 6775.7998,
       "tqqq_close": 49.35,
@@ -76,9 +65,9 @@
     },
     {
       "date": "2026-03-12",
-      "risk_asset_weight": 0.87263179,
+      "risk_asset_weight": 0.8726318,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07263179,
+      "us_risk_contribution": 0.0726318,
       "n225_close": 54452.9609,
       "sp500_close": 6672.6201,
       "tqqq_close": 46.83,
@@ -87,9 +76,9 @@
     },
     {
       "date": "2026-03-13",
-      "risk_asset_weight": 0.87759542,
+      "risk_asset_weight": 0.87759544,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.07759542,
+      "us_risk_contribution": 0.07759544,
       "n225_close": 53819.6094,
       "sp500_close": 6632.1899,
       "tqqq_close": 45.93,
@@ -98,9 +87,9 @@
     },
     {
       "date": "2026-03-16",
-      "risk_asset_weight": 0.47529121,
+      "risk_asset_weight": 0.47529124,
       "japan_risk_contribution": 0.4,
-      "us_risk_contribution": 0.07529121,
+      "us_risk_contribution": 0.07529124,
       "n225_close": 53751.1484,
       "sp500_close": 6699.3799,
       "tqqq_close": 47.46,
@@ -109,9 +98,9 @@
     },
     {
       "date": "2026-03-17",
-      "risk_asset_weight": 0.47485276,
+      "risk_asset_weight": 0.47485279,
       "japan_risk_contribution": 0.4,
-      "us_risk_contribution": 0.07485276,
+      "us_risk_contribution": 0.07485279,
       "n225_close": 53700.3906,
       "sp500_close": 6716.0898,
       "tqqq_close": 48.16,
@@ -120,9 +109,9 @@
     },
     {
       "date": "2026-03-18",
-      "risk_asset_weight": 0.8733685,
+      "risk_asset_weight": 0.87336853,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.0733685,
+      "us_risk_contribution": 0.07336853,
       "n225_close": 55239.3984,
       "sp500_close": 6624.7002,
       "tqqq_close": 46.1,
@@ -131,9 +120,9 @@
     },
     {
       "date": "2026-03-19",
-      "risk_asset_weight": 0.47335671,
+      "risk_asset_weight": 0.47335674,
       "japan_risk_contribution": 0.4,
-      "us_risk_contribution": 0.07335671,
+      "us_risk_contribution": 0.07335674,
       "n225_close": 53372.5312,
       "sp500_close": 6606.4902,
       "tqqq_close": 45.69,
@@ -307,9 +296,9 @@
     },
     {
       "date": "2026-04-13",
-      "risk_asset_weight": 0.85447078,
+      "risk_asset_weight": 0.85447079,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.05447078,
+      "us_risk_contribution": 0.05447079,
       "n225_close": 56502.7695,
       "sp500_close": 6886.2402,
       "tqqq_close": 50.66,
@@ -329,9 +318,9 @@
     },
     {
       "date": "2026-04-15",
-      "risk_asset_weight": 0.85324103,
+      "risk_asset_weight": 0.85324104,
       "japan_risk_contribution": 0.8,
-      "us_risk_contribution": 0.05324103,
+      "us_risk_contribution": 0.05324104,
       "n225_close": 58134.2383,
       "sp500_close": 7022.9502,
       "tqqq_close": 55.65,
@@ -1987,6 +1976,17 @@
       "tqqq_close": 51.81,
       "spxl_close": 242.1,
       "usd_jpy": 159.523
+    },
+    {
+      "date": "2026-11-18",
+      "risk_asset_weight": 0.4,
+      "japan_risk_contribution": 0.4,
+      "us_risk_contribution": 0.0,
+      "n225_close": 59024.2812,
+      "sp500_close": 7323.6299,
+      "tqqq_close": 52.44,
+      "spxl_close": 239.97,
+      "usd_jpy": 159.504
     }
   ]
 }
