@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at_jst": "2026-11-19T12:24:23+09:00",
+  "generated_at_jst": "2026-11-20T12:11:44+09:00",
   "status": "STALE",
   "source_dates": {
     "japan": "2026-07-29",
-    "us": "2026-11-18"
+    "us": "2026-11-19"
   },
   "source_signal_ages_calendar_days": {
-    "japan": 113,
+    "japan": 114,
     "us": 1
   },
   "capital_sleeves": {
@@ -167,7 +167,7 @@
     }
   ],
   "warnings": [
-    "日本株シグナルが113日古いため更新が必要です"
+    "日本株シグナルが114日古いため更新が必要です"
   ],
   "execution_policy": "SIGNAL_ONLY_NO_BROKER_ORDERS",
   "method": {
